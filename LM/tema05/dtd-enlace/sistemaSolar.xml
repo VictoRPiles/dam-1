@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sistemaSolar SYSTEM "sistemaSolar.dtd">
+
+<sistemaSolar>
+	<cuerpo>
+		<planeta>Tierra</planeta>
+		<satelite>Luna</satelite>
+		<asteroide>Ceres</asteroide>
+	</cuerpo>
+</sistemaSolar>

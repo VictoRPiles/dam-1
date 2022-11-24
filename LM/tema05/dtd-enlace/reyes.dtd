@@ -1,0 +1,6 @@
+<!ELEMENT reyes (rey*, reina*)>
+<!ELEMENT rey (nombre6, padre, madre)>
+<!ELEMENT reina (nombre6, padre, madre)>
+<!ELEMENT nombre6 (#PCDATA)>
+<!ELEMENT padre (#PCDATA)>
+<!ELEMENT madre (#PCDATA)>

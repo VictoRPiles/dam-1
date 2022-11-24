@@ -1,0 +1,254 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* BODY RESPONSIVE */
+body {
+	margin-top: 3%;
+
+	font-family: 'JetBrains Mono', monospace;
+	background-color: #E3ECBF;
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		margin-top: 0;
+		background-color: grey;
+		font-family: 'Ubuntu', sans-serif;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		margin-top: 0;
+		background-color: coral;
+		font-family: 'Space Mono', monospace;
+	}
+}
+
+/* MENU */
+.centrado {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+nav {
+	border-radius: 10px;
+}
+
+ul {
+	margin: 0 auto;
+	border-radius: 10px;
+	list-style-type: none;
+	padding: 0;
+	top: 10px;
+	width: 60%;
+	background-color: #A5F5EC;
+	position: fixed;
+}
+
+li {
+	float: left;
+	border-radius: 10px;
+}
+
+li a,
+.dropbtn {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 50px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+li a:hover,
+.desplegable:hover .dropbtn {
+	border-radius: 10px;
+	background-color: white;
+}
+
+li.desplegable {
+	display: inline-block;
+}
+
+.desplegable-contenido {
+	display: none;
+	position: absolute;
+	background-color: #F9F9F9;
+	min-width: 160px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.desplegable-contenido a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+
+	font-weight: normal;
+}
+
+.desplegable-contenido a:hover {
+	background-color: lightgray;
+}
+
+.desplegable:hover .desplegable-contenido {
+	display: block;
+}
+
+/* MENU RESPONSIVE */
+@media screen and (max-width: 900px) {
+	ul {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+		width: auto;
+	}
+
+	ul li {
+		display: block;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		float: left;
+	}
+
+	ul li a, .dropbtn {
+		display: block;
+
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		margin-left: 1px;
+
+		text-decoration: none;
+		color: black;
+	}
+
+	.desplegable {
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+
+	.desplegable-contenido:hover {
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+}
+
+/* CAJAS */
+.caja-exterior {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 100%;
+}
+
+.titulo {
+	display: flex;
+	flex-direction: row;
+
+	width: 42em;
+	padding: 0 1em;
+}
+
+.titulo h2 {
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.cajas {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	width: 42em;
+	padding: 0 1em;
+
+	background-color: #CEFFAD;
+}
+
+.caja-interior {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+
+	width: 20em;
+	height: 20em;
+
+	margin: 2em 1em;
+	padding: 10px;
+
+	background-color: #A5F5EC;
+}
+
+.caja-interior p {
+	text-align: justify;
+}
+
+.caja-interior img {
+	width: 50%;
+	height: auto;
+}
+
+/* CAIXES RESPONSIVE */
+@media screen and (max-width: 900px) {
+	.titulo {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		width: 42em;
+		padding: 0 1em;
+	}
+
+	.caja-exterior {
+		align-items: center;
+	}
+
+	.cajas {
+		align-items: center;
+		flex-direction: column;
+		width: unset;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.titulo {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		width: 42em;
+		padding: 0 1em;
+	}
+
+	.caja-exterior {
+		align-items: center;
+	}
+
+	.cajas {
+		align-items: center;
+		flex-direction: column;
+		width: unset;
+	}
+
+	.caja-interior img {
+		width: 40%;
+		height: auto;
+	}
+}

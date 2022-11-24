@@ -1,0 +1,27 @@
+/*
+En la BDD Jardineria:
+Crear una función a la que se le pase un mes (1-12) y un año, y a partir de ellos encuentre el empleado del mes.
+Este empleado será el que más ventas haya realizado en el mes y año pasados como parámetros.
+Una vez encontrado, la función tiene que devolver una cadena de texto con el formato:
+	"Empleado del mes mm/aaaa: Nombre Apellido1 Apellido2 (total vendido: xxx €)"
+Si en ese mes y año no se hubiera producido ninguna venta, la cadena de texto a devolver sería:
+	"No hubo ventas en el mes mm/aaaa"
+
+Ejemplos:
+jardineria.empleadoDelMes(10, 2007) -> Empleado del mes 10/2007: Lorena Paxton  (total vendido: 7113.00 €)
+jardineria.empleadoDelMes(4, 2006) -> No hubo ventas en el mes 4/2006
+*/
+
+
+/*Crea una funcion que convierta la altura de pies y pulgadas (como se está guardada en la tabla jugadores) a centímetros
+Ejemplo:
+           select nba.alturacm('6-9'); --->>  206
+*/
+
+
+
+/*
+Crea un trigger en la tabla jugadores que no permita introducir ningún jugador que mida más de 250 cm. 
+Reutiliza la función de conversión del ejemplo anterior
+
+*/

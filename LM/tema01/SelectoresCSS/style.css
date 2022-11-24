@@ -1,0 +1,95 @@
+/* Añado la fuente que he descargado a la familia "overseer" */
+@font-face {
+  font-family: "overseer";
+  src: url("font/Overseer.otf");
+}
+body {
+  background-image: url("images/background-img.webp");
+}
+.logo {
+  background-color: rgb(0, 0, 0);
+  border: 3px solid rgb(207, 18, 18);
+  border-radius: 5px;
+}
+.logo img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+}
+.menu {
+  background-color: rgb(255, 255, 255);
+
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.menu a {
+  font-family: "overseer";
+  font-size: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(207, 18, 18);
+
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.menu a:hover {
+  text-decoration: underline;
+  color: rgba(207, 18, 18, 0.75);
+}
+.centrado {
+  margin-right: auto;
+  margin-left: auto;
+}
+.titulo {
+  font-family: "overseer";
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+.titulo2 {
+  font-family: "overseer";
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(207, 18, 18);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.columnas {
+  text-align: center;
+}
+.columna {
+  float: left;
+  height: 750px;
+}
+.columna.principal {
+  width: 50%;
+  min-height: 750px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
+  /* Para que el borde esté en el interior del div, 
+  si está al exterior, la tercera columna baja a la línea de abajo */
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-left: 1px;
+  border-right: 1px;
+  border-radius: 5px;
+}
+.columna.principal p {
+  text-align: justify;
+  font-family: "overseer";
+  font-size: 20px;
+  padding: 15px;
+}
+.columna.lateral {
+  width: 25%;
+  background-color: rgba(207, 18, 18, 0.75);
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 5px;
+}

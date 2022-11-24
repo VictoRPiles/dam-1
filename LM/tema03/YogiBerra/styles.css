@@ -1,0 +1,89 @@
+@font-face {
+	font-family: slackey;
+	src: url("slackey.woff2");
+}
+
+* {
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-image: url("violeta.png");
+	background-size: 3%;
+}
+
+.principal {
+	background-color: skyblue;
+	margin: 0 10%;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: slackey;
+	color: darkslateblue;
+	text-shadow: 5px -5px 5px white;
+	word-spacing: 40px;
+
+	padding: 5px 0;
+
+	text-align: center;
+}
+
+hr {
+	height: 5px;
+	background-color: darkslateblue;
+}
+
+div.texto {
+	background-color: white;
+	margin-top: 20px;
+	padding: 10px;
+	display: inline-block;
+}
+
+div.texto img {
+	float: left;
+	border: 2px solid black;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+div.texto p {
+	text-align: justify;
+	font-size: 20px;
+}
+
+div.naranja {
+	background-color: orange;
+	width: 30%;
+	height: 400px;
+	float: left;
+	margin: 15px;
+	padding: 15px;
+	border: 5px dashed white;
+	border-radius: 10px;
+
+	color: white;
+	font-size: 40px;
+	box-sizing: border-box;
+}
+
+div.naranja p::first-line {
+	color: black;
+}
+
+div.verde {
+	background-image: url("verde.png");
+	width: 30%;
+	height: 400px;
+	float: left;
+	margin: 15px;
+	padding: 15px;
+	border: 5px solid darkgreen;
+	border-radius: 10px;
+
+	text-align: center;
+	font-size: 40px;
+	box-sizing: border-box;
+}

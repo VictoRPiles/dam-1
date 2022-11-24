@@ -1,0 +1,56 @@
+!     ;remarkable object
+!!    ;very remarkable object
+11m   ;11th magnitude
+8...  ;8th mag and fainter
+9...13;9th to 13th magnitude
+am    ;among
+att   ;attached
+B     ;bright
+b     ;brighter
+bet   ;between
+C     ;compressed
+c     ;considerably
+Cl    ;cluster
+D     ;double
+def   ;defined
+deg   ;degrees
+diam  ;diameter
+dif   ;diffuse
+E     ;elongated
+e     ;extremely
+er    ;easily resolved
+F     ;faint
+f     ;following
+g     ;gradually
+iF    ;irregular figure
+inv   ;involved
+irr   ;irregular
+L     ;large
+l     ;little
+M     ;middle
+m     ;much
+mag   ;magnitude
+n     ;north
+N     ;nucleus
+neb   ;nebula, nebulosity
+nf    ;north following
+np    ;north preceding
+P     ;poor
+p     ;preceding
+p     ;pretty (before F,B,L,S)
+P w   ;paired with
+r     ;not well resolved
+R     ;round
+Ri    ;rich
+rr    ;partially resolved
+rrr   ;well resolved
+S     ;small
+s     ;south
+s     ;suddenly
+sc    ;scattered
+sf    ;south following
+sp    ;south preceding
+st    ;star or stellar
+susp  ;suspected
+v     ;very
+var   ;variable

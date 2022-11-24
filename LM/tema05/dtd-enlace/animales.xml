@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales SYSTEM "animales.dtd">
+
+<animales>
+	<animal>
+		<perro>Caniche</perro>
+		<gato>Siamés</gato>
+	</animal>
+</animales>

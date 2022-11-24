@@ -1,0 +1,85 @@
+{
+  "continente": [
+	{
+	  "nombre": "Europa",
+	  "superficie": 10530751,
+	  "poblacion": 743704000,
+	  "pais": [
+		{
+		  "nombre": "España",
+		  "superficie": 505944,
+		  "capital": "Madrid"
+		},
+		{
+		  "nombre": "Francia",
+		  "superficie": 675417,
+		  "capital": "Paris"
+		},
+		{
+		  "nombre": "Alemania",
+		  "superficie": 357375,
+		  "capital": "Berlin"
+		},
+		{
+		  "nombre": "Portugal",
+		  "superficie": 92090,
+		  "capital": "Lisboa"
+		}
+	  ]
+	},
+	{
+	  "nombre": "América",
+	  "superficie": 42549000,
+	  "poblacion": 970040000,
+	  "pais": [
+		{
+		  "nombre": "México",
+		  "superficie": 1964375,
+		  "capital": "Ciudad de México"
+		},
+		{
+		  "nombre": "Brazil",
+		  "superficie": 8515770,
+		  "capital": "Sao Pablo"
+		},
+		{
+		  "nombre": "Estados Unidos",
+		  "superficie": 9147593,
+		  "capital": "Washington DC"
+		},
+		{
+		  "nombre": "Argentina",
+		  "superficie": 2780400,
+		  "capital": "Buenos Aires"
+		}
+	  ]
+	},
+	{
+	  "nombre": "Asia",
+	  "superficie": 44541138,
+	  "poblacion": 4598168800,
+	  "pais": [
+		{
+		  "nombre": "Japón",
+		  "superficie": 377975,
+		  "capital": "Tokyo"
+		},
+		{
+		  "nombre": "Korea del Sur",
+		  "superficie": 100339,
+		  "capital": "Seúl"
+		},
+		{
+		  "nombre": "India",
+		  "superficie": 3287263,
+		  "capital": "Nueva Delhi"
+		},
+		{
+		  "nombre": "China",
+		  "superficie": 9596960,
+		  "capital": "Pekín"
+		}
+	  ]
+	}
+  ]
+}

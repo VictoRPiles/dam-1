@@ -1,0 +1,29 @@
+Atlas de Boston Dynamics
+El diseño y la construcción de Atlas fue supervisado por la DARPA, una agencia del Departamento de Defensa de Estados Unidos, en cooperación con Boston Dynamics. Una de las manos del robot fue desarrollado por Laboratorio Nacional de Sandia, mientras que el otro fue desarrollado por iRobot. En 2013, el gestor del programa robótico de DARPA, Gill Pratt comparó la versión prototipo del Atlas con un niño pequeño, diciendo que "un niño con un año apenas puede caminar, a esa edad se cae mucho... aquí es donde estamos ahora ".
+Atlas se basa en principios del PETMAN, un robot humanoide desarrollado también por Boston Dynamics. 
+Tiene cuatro extremidades accionadas hidráulicamente. Construido en aluminio de grado aeronáutico y titanio. 
+Se alza a una altura máxima de 1.8 m de alto, pesa 150 kg y se ilumina con LEDs azules. El Atlas está equipado con dos sistemas de visión, un telémetro láser y cámaras estéreo, ambos controlados por un ordenador de a bordo. Tiene las manos con las capacidades motrices finas. Sus extremidades poseen un total de 28 grados de libertad y puede navegar terrenos irregulares y subir de forma independiente con sus brazos y piernas, aunque el prototipo del 2013 fue atado a una fuente de alimentación externa para mantener la estabilidad.
+        
+ 
+ Asimo, el androide que ayuda. Es un robot humanoide (androide) presentado por la compañía japonesa Honda en el año 2000. ASIMO (acrónimo de "Advanced Step in Innovative Mobility"- paso avanzado en movilidad innovadora), Con el diseño y desarrollo de ASIMO se pretende ayudar a las personas que carecen de movilidad completa en sus cuerpos, así como para animar a la juventud para estudiar ciencias y matemáticas. El humanoide no ha seguido desarrollándose
+
+    Sophia el humanoide inteligente. Diseñada para aprender, adaptarse al comportamiento humano y 
+trabajar con estos satisfactoriamente.
+    
+        Sophia 1.0               Verión 1                   Año 2011
+
+        Sophia 2.0               Versión 2                  Año 2014
+
+        Sophia 3.0               Versión 3                  Año 2019
+
+        Sophia 4.0               Versión 4                  Año 2021
+    
+  
+T-HR3, el robot simulador.
+El nuevo robot de Toyota, de funcionamiento remoto cuenta con unos avanzados servomódulos y un Sistema de Maniobras Maestras. El T-HR3 refleja el concepto amplio de Toyota de cómo las tecnologías avanzadas pueden ayudar a satisfacer las necesidades de movilidad específicas de cada persona. Este nuevo robot de Toyota representa un nuevo paso evolutivo respecto a la generación anterior de robots humanoides que tocan instrumentos, creados para probar la colocación precisa de las articulaciones y movimientos preprogramados. el T-HR3 tiene capacidades que pueden ayudar de forma segura a los humanos en diversos contextos, tales como en casa, en servicios médicos, en zonas de obras, en lugares golpeados por catástrofes o incluso en el espacio exterior.</p>
+
+Pepper, el androide con empatía. Pepper es un robot humanoide de 120 centímetros, programable y diseñado para interactuar con personas. Su tecnología le permite detectar tanto el lenguaje verbal como el no verbal, la posición de la cabeza y el tono de voz.
+
+
+ 
+ Autor: Jorge Albiach 25 de octubre de 2021

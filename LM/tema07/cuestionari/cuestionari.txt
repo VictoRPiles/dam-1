@@ -1,0 +1,73 @@
+CUESTIONARIO SISTEMAS DE GESTIÓN DE INFORMACIÓN:
+
+1.- Explica las siglas de ERP:
+Sistema de planificación de recursos empresariales (enterprise resource planning).
+
+2.- ¿Qué manejan las ERP?
+Integran y manejan muchos de los negocios asociados con las operaciones de producción y de los
+aspectos de distribución de una compañía en la producción de bienes o servicios.
+
+3.- ¿Porqué se llaman sistemas Back Office?
+Porque los clientes y el púbilco general no tienen acceso a l sistema.
+
+4.- Módulos que presentan las ERP.
+Manejan la producción, logística, distribución, inventario, envíos, facturas y contabilidad.
+
+5.- Nombra las 3 características princiapes de las ERP.
+Son modulares, configurables y especializados.
+
+6.- ¿Qué es un consultor de ERP y qué hace?
+La consultoría de negocios estudia los procesos de negocios actuales de la compañía y evalúa su correspondencia con los procesos del sistema ERP, lo cual generalmente incluye la personalización de ciertos aspectos de los sistemas ERP para las necesidades de las organizaciones. 
+La consultoría técnica muchas veces implica programación. La mayoría de los vendedores de ERP permiten modificar su software para las necesidades de los negocios de sus clientes.
+
+7.- ¿Las ERP tienen interfaz web?
+Hoy en día, un buen número de sistemas ERP tienen una Interfaz Web.
+La ventaja de este tipo de interfaz es que no requiere la instalación.
+
+8.- ¿Es costosa la implantación?
+Sí, la instalación del sistema ERP es muy costosa y los vendedores del ERP pueden cobrar sumas de dinero para la renovación de sus licencias anuales.
+
+9.- Cita 3 ventajas de tener una ERP (máximo una línea por ventaja, penaliza utilizar más líneas).
+El programa se adapta a las necesidades de la empresa.
+Un ERP tiene todas las herramientas integradas.
+Un ERP es un sistema diseñado para ser seguro.
+
+10.- Cita 3 desventajas de tener una ERP (máximo una línea por ventaja, penaliza utilizar más líneas.
+La instalación del sistema ERP es muy costosa.
+Los sistemas pueden ser difíciles de usar.
+Los sistemas pueden tener excesiva ingeniería respecto a las necesidades reales del consumidor.
+
+11.- Explica en 3 líneas (máximo) la diferencia entre una ERP y software de gestión.
+Un ERP es una aplicación que integra en un único sistema todos los procesos de negocio de una empresa.
+El software de gestión son diferentes programas que no están hechos a medida de la empresa.
+
+12.- ¿Como se llaman los programas basados en múltiples aplicaciones?
+Suites.
+
+13.- Menciona alguna suit comercial.
+MS Office.
+
+14.- ¿Cómo se llama el servidor sobre el que trabaja SAP?
+Servidor de Aplicaciones web de SAP.
+
+15.- Ejemplos de empresas conocidas que utiizan SAP.
+Mercadona, CaixaBank, IBM, Telefónica...
+
+16.- Costes aproximados de implantar SAP para una gran empresa.
+Las grandes compañías pueden gastar de 50 a 100 millones.
+
+17.- ¿Y para empresas de tamaño medio?
+Las empresas de tamaño medio pueden gastar de 10 a 20 millones.
+
+18.- Fases de implementación SAP.
+Fase 1: Preparación de Proyecto.
+Fase 2: Plano de requerimientos (Business Blueprint o BBP).
+Fase 3: Realización.
+Fase 4: Preparación Final.
+Fase 5: Soporte de entrada en productivo.
+
+19.- ¿Qué porcentaje de objetivos de implantación se consiguen?
+La firma analista Gartner estima que del 55% al 75% de todos los proyectos ERP no consiguen cumplir sus objetivos.
+
+20.- ¿Qué lenguaje se utiliza para configurar los formularios SAP?
+ABAP.

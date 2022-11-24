@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+note
+C1:	1,2,3,4,5			NP = No Apto
+C2:	1,2,3,4,6,8,9,10 		NT = 8, NP = 9, NTR = 9
+end note
+
+:Leer_Nota_de_Teoría (NT);
+:Leer_Nota_de_Prácticas (NP);
+:Leer_Nota_de_Trabajos (NTR);
+
+if (NP = No Apto) is (True) then
+  :NF = 4;
+else (False)
+  if (NP < 4.5) is (True) then
+    :NF = NT;
+  else (False)
+    :NF = NT + NTR;
+  endif
+
+  if (NF > 10) is (True) then
+    :NF = Matricula de Honor;
+    else(false);
+  endif
+endif
+
+stop
+note
+C1: NF = 4
+C2: NF = Matricula de Honor
+end note
+
+@enduml

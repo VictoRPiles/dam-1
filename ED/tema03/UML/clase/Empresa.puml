@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Persona {
+-nombre : string
+-edad : int
+
++mostrar() : void
+}
+
+class Empleado{
+-salario : int
+
++calcularSalario()
++mostrar()
+}
+
+class Cliente {
+-telefono : string
++mostrar()
+}
+
+class Empresa {
+-CIF : int
+-razonSocial : string
+-direccion : string
+-telefono : string
+}
+
+class Directivo {
+-categoria : string
+
++mostrar()
+}
+
+Persona ^-- Empleado
+Persona ^-- Cliente
+Empleado "1:N"--*"1  " Empresa
+Cliente "0:N "--o "1:N " Empresa : Lista clientes
+Empleado ^-- Directivo
+Empleado "1:N"--"0:N" Directivo : " Subordinados"
+
+@enduml

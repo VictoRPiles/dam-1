@@ -1,0 +1,24 @@
+{
+	"students": {
+		"student": [
+			{
+				"name": "Rick Grimes",
+				"age": 35,
+				"subject": "Maths",
+				"gender": "Male"
+			},
+			{
+				"name": "Daryl Dixon",
+				"age": 33,
+				"subject": "Science",
+				"gender": "Male"
+			},
+			{
+				"name": "Maggie",
+				"age": 36,
+				"subject": "Arts",
+				"gender": "Female"
+			}
+		]
+	}
+}

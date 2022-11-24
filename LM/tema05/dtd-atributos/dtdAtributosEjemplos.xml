@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE dtdAtributosEjemplos [
+		<!ELEMENT dtdAtributosEjemplos ANY>
+
+		<!-- cdata -->
+		<!ELEMENT cdata EMPTY>
+		<!ATTLIST cdata color CDATA #REQUIRED>
+
+		<!-- nmtoken -->
+		<!ELEMENT nmtoken EMPTY>
+		<!ATTLIST nmtoken color NMTOKEN #REQUIRED>
+
+		<!-- nmtokens -->
+		<!ELEMENT nmtokens EMPTY>
+		<!ATTLIST nmtokens color NMTOKENS #REQUIRED>
+
+		<!-- ORLogico -->
+		<!ELEMENT ORLogico EMPTY>
+		<!ATTLIST ORLogico color (azul|blanco|rojo) #REQUIRED>
+
+		<!-- id & idref -->
+		<!ELEMENT libro (#PCDATA) >
+		<!ATTLIST libro codigo ID #REQUIRED>
+		<!ELEMENT prestamo (#PCDATA) >
+		<!ATTLIST prestamo libro IDREF #REQUIRED>
+		<!ELEMENT prestamo2 (#PCDATA) >
+		<!ATTLIST prestamo2 libro IDREFS #REQUIRED>
+
+		<!-- requerido -->
+		<!ELEMENT requerido EMPTY >
+		<!ATTLIST requerido codigo ID #REQUIRED>
+		<!ELEMENT norequerido EMPTY >
+		<!ATTLIST norequerido codigo ID #IMPLIED>
+
+		<!-- valor fijo -->
+		<!ELEMENT fijo EMPTY>
+		<!ATTLIST fijo color CDATA #FIXED "verde">
+		]>
+
+<dtdAtributosEjemplos>
+	<cdata color="rojo*azul"/>
+	<nmtoken color="rojo-azul"/>
+	<nmtokens color="rojo azul"/>
+	<ORLogico color="azul"/>
+	<ORLogico color="rojo"/>
+	<libro codigo="ID1">tiene el ID 1</libro>
+	<libro codigo="ID2">tiene otro ID, no se puede repetir</libro>
+	<prestamo libro="ID2">debe coincidir con otro ID</prestamo>
+	<prestamo2 libro="ID1 ID2">puede coincidir con varios ID</prestamo2>
+	<requerido codigo="R1"/>
+	<norequerido codigo="NR1"/>
+	<norequerido/> <!-- sin atributo -->
+	<fijo color="verde"/>
+</dtdAtributosEjemplos>

@@ -1,0 +1,125 @@
+@font-face {
+	src: url("playball.woff");
+	font-family: PlayBall;
+}
+
+body {
+	font-family: PlayBall;
+	margin: 0;
+}
+
+header {
+	margin: 0;
+	background-color: #E64D19;
+
+	overflow: auto;
+}
+
+ul {
+	float: right;
+	margin-right: 10%;
+
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 5px;
+	padding: 3px;
+
+	border: 2px solid white;
+
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: #FFD9CC;
+}
+
+li:hover {
+	background-color: #FF6633;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	margin: 0;
+	padding: 10px 10px 45px;
+
+	font-size: 4rem;
+	color: white;
+	text-transform: uppercase;
+}
+
+h2 {
+	padding: 0 10px;
+
+	font-size: 2.5rem;
+	color: white;
+	background-color: #FF6633;
+}
+
+h3 {
+	padding: 0 10px;
+	margin-bottom: 0;
+
+	font-size: 2rem;
+	color: white;
+	background-color: #FF6633;
+}
+
+main {
+	margin: 0 5%;
+
+	border-right: 5px solid #FF6633;
+	border-left: 5px solid #FF6633;
+}
+
+section {
+	margin: 0 5% 30px;
+	padding-bottom: 30px;
+
+	background-color: #FFD9CC;
+}
+
+article {
+	margin: 0 10%;
+	background-color: white;
+
+	clear: both;
+}
+
+article article {
+	margin: 0;
+	padding: 0 20px 20px;
+	overflow: auto;
+}
+
+aside {
+	float: right;
+	padding-left: 40px;
+	margin: 10px 0 10px 30px;
+	border-left: 5px solid #FF6633;
+}
+
+aside p {
+	text-align: center;
+	font-size: 1rem;
+
+	padding: 0;
+}
+
+p {
+	margin-bottom: 10px;
+
+	text-align: justify;
+	font-size: 1.5rem;
+}
+
+address {
+	padding: 2px;
+
+	font-size: 1.5rem;
+	color: white;
+	background-color: #E64D19;
+}

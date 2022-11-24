@@ -1,0 +1,185 @@
+[
+  {
+	"nombre": "Abastos",
+	"alumnos": 500,
+	"municipio": "Valencia",
+	"curso": [
+	  {
+		"nombre": "DAM",
+		"codigo": 1,
+		"asignatura": [
+		  {
+			"nombre": "Lenguajes de Marcas",
+			"horas": 100
+		  },
+		  {
+			"nombre": "Programación",
+			"horas": 200
+		  },
+		  {
+			"nombre": "Bases de datos",
+			"horas": 150
+		  }
+		]
+	  },
+	  {
+		"nombre": "ASIR",
+		"codigo": 2,
+		"asignatura": [
+		  {
+			"nombre": "Sistemas Informáticos",
+			"horas": 100
+		  },
+		  {
+			"nombre": "Redes",
+			"horas": 140
+		  },
+		  {
+			"nombre": "Hardware",
+			"horas": 120
+		  }
+		]
+	  },
+	  {
+		"nombre": "DAW",
+		"codigo": 3,
+		"asignatura": [
+		  {
+			"nombre": "Programación Web",
+			"horas": 200
+		  },
+		  {
+			"nombre": "Lenguajes de marcas",
+			"horas": 100
+		  },
+		  {
+			"nombre": "Redes",
+			"horas": 120
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"nombre": "Sant Vicent Ferrer",
+	"alumnos": 100,
+	"municipio": "Algemesí",
+	"curso": [
+	  {
+		"nombre": "DAM",
+		"codigo": 1,
+		"asignatura": [
+		  {
+			"nombre": "Lenguajes de Marcas",
+			"horas": 100
+		  },
+		  {
+			"nombre": "Programación",
+			"horas": 200
+		  },
+		  {
+			"nombre": "Bases de datos",
+			"horas": 150
+		  }
+		]
+	  },
+	  {
+		"nombre": "ASIR",
+		"codigo": 2,
+		"asignatura": [
+		  {
+			"nombre": "Sistemas Informáticos",
+			"horas": 100
+		  },
+		  {
+			"nombre": "Redes",
+			"horas": 140
+		  },
+		  {
+			"nombre": "Hardware",
+			"horas": 120
+		  }
+		]
+	  },
+	  {
+		"nombre": "DAW",
+		"codigo": 3,
+		"asignatura": [
+		  {
+			"nombre": "Programación Web",
+			"horas": 200
+		  },
+		  {
+			"nombre": "Lenguajes de marcas",
+			"horas": 100
+		  },
+		  {
+			"nombre": "Redes",
+			"horas": 120
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"nombre": "Enric Soler i Godes",
+	"alumnos": 100,
+	"municipio": "Benifaió",
+	"curso": [
+	  {
+		"nombre": "DAM",
+		"codigo": 1,
+		"asignatura": [
+		  {
+			"nombre": "Lenguajes de Marcas",
+			"horas": 100
+		  },
+		  {
+			"nombre": "Programación",
+			"horas": 200
+		  },
+		  {
+			"nombre": "Bases de datos",
+			"horas": 150
+		  }
+		]
+	  },
+	  {
+		"nombre": "ASIR",
+		"codigo": 2,
+		"asignatura": [
+		  {
+			"nombre": "Sistemas Informáticos",
+			"horas": 100
+		  },
+		  {
+			"nombre": "Redes",
+			"horas": 140
+		  },
+		  {
+			"nombre": "Hardware",
+			"horas": 120
+		  }
+		]
+	  },
+	  {
+		"nombre": "DAW",
+		"codigo": 3,
+		"asignatura": [
+		  {
+			"nombre": "Programación Web",
+			"horas": 200
+		  },
+		  {
+			"nombre": "Lenguajes de marcas",
+			"horas": 100
+		  },
+		  {
+			"nombre": "Redes",
+			"horas": 120
+		  }
+		]
+	  }
+	]
+  }
+]

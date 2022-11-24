@@ -1,0 +1,36 @@
+{
+	"bookstore": {
+		"book": [
+			{
+				"@category": "PROGRAMMING",
+				"title": {
+					"@lang": "en",
+					"#text": "Every Course"
+				},
+				"author": "Phptpoint",
+				"year": 2020,
+				"price": "70.0"
+			},
+			{
+				"@category": "HTML",
+				"title": {
+					"@lang": "en",
+					"#text": "Learn HTML"
+				},
+				"author": "Phptpoint",
+				"year": 2020,
+				"price": "45.99"
+			},
+			{
+				"@category": "WEB",
+				"title": {
+					"@lang": "en",
+					"#text": "Learn XML"
+				},
+				"author": "Phptpoint",
+				"year": 2029,
+				"price": "75.0"
+			}
+		]
+	}
+}

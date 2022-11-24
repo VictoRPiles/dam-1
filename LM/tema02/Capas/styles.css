@@ -1,0 +1,166 @@
+body {
+	font-family: sans-serif;
+
+	background-color: black;
+}
+
+h2 {
+	padding: 5px;
+
+	border-radius: 10px;
+
+	text-align: center;
+
+	background-color: #FFFFFF;
+}
+
+p {
+	padding: 5px;
+
+	border-radius: 10px;
+
+	text-align: center;
+
+	background-color: #FFFFFF;
+}
+
+.capa1 {
+	width: 500px;
+	height: 200px;
+
+	border: 6px solid red;
+}
+
+.capa2 {
+	width: 400px;
+	height: 100px;
+
+	border: 4px solid orange;
+}
+
+.capa3 {
+	width: 200px;
+	height: 50px;
+
+	border: 2px solid yellow;
+}
+
+/* ===== STATIC ===== */
+.static h1 {
+	padding: 5px;
+
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+
+	text-align: center;
+
+	background-color: #AAAAAA;
+}
+
+.static div.capa1 {
+	position: static;
+	top: 260px;
+	left: 60px;
+}
+
+.static div.capa2 {
+	position: static;
+	top: 240px;
+	left: 40px;
+}
+
+.static div.capa3 {
+	position: static;
+	top: 220px;
+	left: 20px;
+}
+
+/* ===== ABSOLUTE ===== */
+.absolute h1 {
+	padding: 5px;
+
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+
+	text-align: center;
+
+	background-color: #00BFFF;
+}
+
+.absolute div.capa1 {
+	position: absolute;
+	top: 260px;
+	left: 60px;
+}
+
+.absolute div.capa2 {
+	position: absolute;
+	top: 240px;
+	left: 40px;
+}
+
+.absolute div.capa3 {
+	position: absolute;
+	top: 220px;
+	left: 20px;
+}
+
+/* ===== FIXED ===== */
+.fixed h1 {
+	padding: 5px;
+
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+
+	text-align: center;
+
+	background-color: #8FBC8F;
+}
+
+.fixed div.capa1 {
+	position: fixed;
+	top: 260px;
+	left: 60px;
+}
+
+.fixed div.capa2 {
+	position: fixed;
+	top: 240px;
+	left: 40px;
+}
+
+.fixed div.capa3 {
+	position: fixed;
+	top: 220px;
+	left: 20px;
+}
+
+/* ===== RELATIVE ===== */
+.relative h1 {
+	padding: 5px;
+
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+
+	text-align: center;
+
+	background-color: #E22222;
+}
+
+.relative div.capa1 {
+	position: relative;
+	top: 260px;
+	left: 60px;
+}
+
+.relative div.capa2 {
+	position: relative;
+	top: 240px;
+	left: 40px;
+}
+
+.relative div.capa3 {
+	position: relative;
+	top: 220px;
+	left: 20px;
+}

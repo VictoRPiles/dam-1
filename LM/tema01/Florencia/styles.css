@@ -1,0 +1,68 @@
+body {
+	background-color: #b7b9aa;
+}
+
+.titulo {
+	font-family: "Arial Black";
+	color: #111375;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 40px;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.seccion {
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.titulo-iglesia {
+	font-family: "Arial Black";
+	color: #FFFFFF;
+	font-size: 30px;
+	text-transform: capitalize;
+	text-align: left;
+
+	padding: 0px 10px;
+
+	background-color: darkolivegreen;
+}
+
+.iglesia-fiore {
+	float: left;
+	position: relative;
+	clear: both;
+
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.iglesia-croce {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.iglesia-novella {
+	float: right;
+}
+
+p {
+	font-family: Arial;
+	font-size: 25px;
+	text-align: justify;
+
+	padding: 0px 10px;
+
+	overflow: hidden;
+}
+
+i {
+	font-weight: bold;
+}
+
+footer p {
+	font-size: 18px;
+	font-style: italic;
+}

@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Agencia {
+-reservas : Reserva
+
++hacerReserva()
+}
+
+class Reserva {
+-fechaInicio : fecha
+-fechaFin : fecha
+-precioTotal : double
+-entregado : boolean
+}
+
+class Cliente {
+-DNI : string
+-nombre : string
+-direccion : string
+-telefono : int
+-id : int
+-avalado : Cliente
+}
+
+class Coche {
+-garaje : int
+-matricula : string
+-modelo : string
+-marca : string
+-color : string
+}
+
+<> reservar
+annotation detallesReserva {
+-precioCoche : double
+-litrosCoche : double
+-entregado : boolean
+}
+
+
+Agencia "1 "--"0:N " Reserva
+Reserva "0:N  "--"1 " Cliente
+Cliente - Cliente : Avalar
+Reserva - reservar
+reservar .. detallesReserva : " Reservar"
+reservar - Coche
+@enduml

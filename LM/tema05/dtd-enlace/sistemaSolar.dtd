@@ -1,0 +1,5 @@
+<!ELEMENT sistemaSolar (cuerpo*)>
+<!ELEMENT cuerpo (planeta,satelite,asteroide)>
+<!ELEMENT planeta (#PCDATA)>
+<!ELEMENT satelite (#PCDATA)>
+<!ELEMENT asteroide (#PCDATA)>

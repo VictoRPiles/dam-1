@@ -1,0 +1,65 @@
+/* MENU 2 */
+.menu {
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.boton {
+	background-color: skyblue;
+	padding: 5px;
+	height: 50px;
+	width: 100px;
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+}
+
+.boton:hover {
+	background-color: dodgerblue;
+}
+
+.desplegable {
+	display: none;
+	position: absolute;
+	width: 100px;
+	left: 0;
+}
+
+.menu:hover .desplegable {
+	display: block;
+}
+
+.desplegable a {
+	display: block;
+	padding: 5px;
+
+	text-decoration: none;
+	color: black;
+
+	font-size: 1rem;
+	text-align: center;
+}
+
+.desplegable a:hover {
+	background-color: lightgray;
+	outline: 1px solid black;
+	color: red;
+	font-size: 1.2rem;
+	box-shadow: 3px 3px black;
+}
+
+.desplegable-segundo-nivel {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	width: 100px;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+
+.especial:hover .desplegable-segundo-nivel {
+	display: block;
+}

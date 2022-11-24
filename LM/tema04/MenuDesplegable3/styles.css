@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+li {
+	list-style-type: none;
+	position: relative;
+	width: 120px;
+}
+
+li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 10px;
+	width: 150px;
+	height: 30px;
+	border: 1px solid #000;
+	color: #fff;
+	background-color: green;
+}
+
+li a:hover {
+	color: #000;
+	text-decoration: underline;
+	background-color: lightgreen;
+
+}
+
+.trigger-segundo:hover .segundo {
+	display: block;
+}
+
+.segundo {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 150px;
+}
+
+.segundo a {
+	background-color: dodgerblue;
+}
+
+.segundo a:hover {
+	background-color: lightblue;
+}
+
+.trigger-tercero:hover .tercero {
+	display: block;
+}
+
+.tercero {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 150px;
+}
+
+.tercero a {
+	background-color: red;
+}
+
+.tercero a:hover {
+	background-color: indianred;
+}

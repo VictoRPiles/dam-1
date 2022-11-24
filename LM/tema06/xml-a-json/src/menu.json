@@ -1,0 +1,18 @@
+{
+	"menu_almuerzo": {
+		"comida": [
+			{
+				"nombre": "Waffles",
+				"precio": 2.0,
+				"descripcion": "Waffles baratos de McDonalds",
+				"calorias": 650
+			},
+			{
+				"nombre": "Hamburguesa",
+				"precio": 5.0,
+				"descripcion": "La hamburguesa más común de McDonalds",
+				"calorias": 1500
+			}
+		]
+	}
+}

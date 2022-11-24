@@ -1,0 +1,69 @@
+Nom -> Víctor Piles
+A) Hi han 4 subxarxes:
+	Sx1 -> Sales + Mnagement	(140 hosts).
+	Sx2 -> Marketing		( 56 hosts).
+	Sx3 -> Research			( 36 hosts).
+	Sx4 -> Routers Serie		(  2 hosts).
+
+B) Tenint en conter el creiximent del 100%, 8 subxarxes que son 3 bits (2^3 = 8).
+
+C) Tenint en conter el creiximent del 100%, 280 hosts que son 9 bits (2^9 - 2 = 510).
+
+========== CONFIGURACIÓ PER A MÁXIM DE HOSTS ==========
+D) Vaig a utilitzar la direcció 128.0.0.0 /19 (8 sx de 8190 h)
+
+E) Sx1 -> [128.0.0.0 - 128.0.31.255]
+   Sx2 -> [128.0.32.0 - 128.0.63.255]
+   Sx3 -> [128.0.64.0 - 128.0.95.255]
+   Sx4 -> [128.0.96.0 - 128.0.127.255]
+
+F) La primera i la última son per a la subxarxa i per a broadcast, respectivament.
+   Sx1 -> [128.0.0.1 - 128.0.31.254]
+   Sx2 -> [128.0.32.1 - 128.0.63.254]
+   Sx3 -> [128.0.64.1 - 128.0.95.254]
+   Sx4 -> [128.0.96.1 - 128.0.127.254]
+
+G) Router 1 (esquerra)
+   	F0/0 -> 128.0.0.1
+   	S0/0/0 -> 128.0.96.1
+   Router 2 (dreta)
+   	F0/0 -> 128.0.32.1
+   	F0/1 -> 128.0.64.1
+   	S0/0/1 -> 128.0.96.2
+
+H) Tenint en compter que els routers tenen tables de enrutament correctament configurades:
+   Dirección IP -> 128.0.64.2 /19
+   Gateway -> 128.0.64.1
+
+===========================================================
+
+========== CONFIGURACIÓ PER A MÁXIM DE SUBXARXES ==========
+D) Vaig a utilitzar la direcció 128.0.0.0 /23 (128 sx de 510 h)
+
+E) Sx1 -> [128.0.0.0 - 128.0.1.255]
+   Sx2 -> [128.0.2.0 - 128.0.3.255]
+   Sx3 -> [128.0.4.0 - 128.0.5.255]
+   Sx4 -> [128.0.6.0 - 128.0.7.255]
+
+F) La primera i la última son per a la subxarxa i per a broadcast, respectivament.
+   Sx1 -> [128.0.0.1 - 128.0.1.254]
+   Sx2 -> [128.0.2.1 - 128.0.3.254]
+   Sx3 -> [128.0.4.1 - 128.0.5.254]
+   Sx4 -> [128.0.6.1 - 128.0.7.254]
+
+G) Router 1 (esquerra)
+   	F0/0 -> 128.0.0.1
+   	S0/0/0 -> 128.0.6.1
+   Router 2 (dreta)
+   	F0/0 -> 128.0.2.1
+   	F0/1 -> 128.0.4.1
+   	S0/0/1 -> 128.0.6.2
+
+H) Tenint en compter que els routers tenen tables de enrutament correctament configurades:
+   Dirección IP -> 128.0.4.2 /13
+   Gateway -> 128.0.4.1
+
+===========================================================
+
+I) Els routers divideixen les xarxes en dominis de colisió i difusió, treballen en la capa de xarxa y comuniquen     diferents xarxes.
+   Els switch agrupen equips que normalment tenen algo en comú (mateixa aula, habitació de una oficina...),       divideixen la xarxa en dominis de colisió, treballen a nivell de enllaç.

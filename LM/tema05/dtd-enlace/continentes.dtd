@@ -1,0 +1,5 @@
+<!ELEMENT index (continente, pais, capital, ejemplo)>
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ELEMENT ejemplo EMPTY>

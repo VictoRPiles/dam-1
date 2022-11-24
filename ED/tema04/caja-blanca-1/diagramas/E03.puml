@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+note
+C1:	1,2,3,9				cadena = null
+C2:	1,2,3,4,5,6,7,8,4,6,7,8,9	cadena = {'a','b'} letra = 'a'
+end note
+:int buscar_en(char cadena[10], char letra);
+
+:int contador, n, lon; n=0; contador=0; lon = strlen (cadena);
+
+if (lon > 0?) is (yes) then
+  repeat
+    if (cadena[contador] == letra?) is (yes) then
+      :n++;
+    else (no)
+    endif
+
+    :contador++;
+    :lon--;
+
+  repeat while (lon > 0?)
+else (no)
+endif
+
+:return n;
+
+stop
+note
+C1:	0
+C2:	1
+end note
+
+@enduml

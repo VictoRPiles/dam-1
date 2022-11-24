@@ -1,0 +1,6 @@
+Modificar en /etc/default/grub
+GRUB_DEFAULT=2		# TERCERA ENTRADA DEL MENU (empieza por 0)
+GRUB_TIMEOUT=30		# 30 SEGUNDOS DE DEMORA
+
+Para que se apliquen los cambios ejecutar
+update-grub (como administrador)

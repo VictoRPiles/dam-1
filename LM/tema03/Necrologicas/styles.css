@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "Cabin Sketch";
+	src: url("cabin-sketch.woff");
+}
+
+@font-face {
+	font-family: "Gabriela";
+	src: url("gabriela.woff");
+}
+
+body {
+	background-color: #C7C8D1;
+	padding: 0 5%;
+	font-family: Gabriela;
+}
+
+ul {
+	width: 100%;
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #575A75;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111111;
+}
+
+article {
+	margin: 0 0 10px;
+}
+
+h1 {
+	clear: both;
+	color: #575A75;
+	text-align: center;
+	font-size: 4rem;
+	font-family: "Cabin Sketch";
+	margin: 5px;
+}
+
+h2 {
+	margin: 0;
+	color: white;
+	padding: 5px;
+}
+
+p {
+	margin: 0;
+	padding: 2px 0;
+	text-align: justify;
+}
+
+.naranja {
+	border: 2px solid #CC4400;
+	background-color: #FFA666;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+}
+
+.naranja h2 {
+	background-color: #CC5500;
+}
+
+.naranja .fechas {
+	padding-left: 10px;
+	background-color: #DB5B00;
+}
+
+.naranja .biografia {
+	padding-left: 15px;
+}
+
+.morado {
+	border: 2px solid #E600E6;
+	background-color: #FFCCFF;
+	border-radius: 10px;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.morado h2 {
+	background-color: #E600E6;
+}
+
+.morado .fechas {
+	padding-left: 10px;
+	background-color: #FF80FF;
+}
+
+.morado .biografia {
+	padding-left: 15px;
+}

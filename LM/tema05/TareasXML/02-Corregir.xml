@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<!--Corrige el siguiente documento XML para que esté bien formado:-->
+	<deportistas>
+		<deportista>
+			<deporte>Atletismo</deporte>
+			<nombre>Jesse Owens</nombre>
+		</deportista>
+		<deportista>
+			<deporte>Natación</deporte>
+			<nombre>Mark Spitz</nombre>
+		</deportista>
+	</deportistas>
+	<!-- ######################### -->
+	<pelicula>
+		<h1>Con faldas y a lo loco</h1>
+		<director>Billy Wilder</director>
+	</pelicula>
+	<pelicula>
+		<h1>Sopa de ganso</h1>
+		<director>Leo McCarey</director>
+		<autor>barto</autor>
+	</pelicula>
+	<!-- ######################### -->
+	<texto>
+		<h1>XML explicado a los niños</h1>
+		<parrafo>
+			El
+			<abreviatura>XML</abreviatura>
+			define cómo crear lenguajes de marcas.
+		</parrafo>
+		<parrafo>
+			Las marcas se añaden a un documento de texto para añadir información.
+		</parrafo>
+		<url>http://www.example.org</url>
+	</texto>
+	<!-- ######################### -->
+	<geografia-mundial>
+		<pais>
+			<pais>España</pais>
+			<continente>Europa</continente>
+			<capital nombre="Madrid"></capital>
+		</pais>
+	</geografia-mundial>
+	<!-- ######################### -->
+	<programas>
+		<programa nombre="Firefox" licencia="GPL" licencia2="MPL"/>
+		<programa nombre="OpenOffice.org" licencia="LGPL"/>
+		<programa nombre="Inkscape" licencia="GPL"/>
+	</programas>
+	<!-- ######################### -->
+	<mundiales-de-futbol>
+		<mundial>
+			<pais nombre="España"/>
+			<agno1982/>
+		</mundial>
+	</mundiales-de-futbol>
+	<!-- ######################### -->
+	<mediosDeTransporte>
+		<bicicleta velocidad="v100km/h"/>
+		<patinete velocidad-maxima="50km/h"/>
+	</mediosDeTransporte>
+</xml>

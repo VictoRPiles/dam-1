@@ -1,0 +1,102 @@
+body {
+	background-color: #36e1ff;
+	padding: 0 10%;
+
+	font-family: sans-serif;
+	line-height: 1.5;
+
+	margin-top: 75px;
+}
+
+nav {
+	font-family: Consolas, sans-serif;
+	font-size: 20px;
+	width: 77.8%;
+	top: 5px;
+	position: fixed;
+	background-color: white;
+	padding: 5px 10px;
+	border: 3px solid black;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+nav a:hover {
+	color: white;
+	text-decoration: underline;
+	background-color: black;
+}
+
+section {
+	background-color: white;
+	border-radius: 10px;
+	padding-bottom: 15px;
+}
+
+h2 {
+	background-color: black;
+	border-radius: 10px 10px 0 0;
+	color: lightgray;
+	padding: 0 10px;
+}
+
+p {
+	font-size: 18px;
+	padding: 0 10px;
+	text-align: justify;
+	text-indent: 30px;
+}
+
+span {
+	color: blueviolet;
+}
+
+table {
+	padding: 0 10px;
+	margin-left: 20px;
+	font-size: 14px;
+	font-family: Consolas, sans-serif;
+}
+
+td {
+	padding: 15px 60px;
+}
+
+img.atlas {
+	float: left;
+	padding: 5px;
+	width: 200px;
+}
+
+img.asimo {
+	float: right;
+	width: 75px;
+	padding: 0 10px;
+}
+
+img.sophia {
+	float: right;
+	padding: 0 10px 0 5px;
+}
+
+img.thr3 {
+	float: right;
+	padding: 0 10px;
+	width: 175px;
+	height: 150px;
+}
+
+hr {
+	height: 3px;
+	margin-top: 50px;
+	background-color: #ffb700;
+}
+
+address {
+	margin-top: 20px;
+}

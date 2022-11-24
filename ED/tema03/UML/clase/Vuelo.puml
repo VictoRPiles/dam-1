@@ -1,0 +1,126 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Terminal {
+
++mostrarMensaje()
+}
+
+class Cliente {
+-registrado : boolean
+-email : string
+-contraseña : string
+
++seleccionarActividad()
+}
+
+class TarjetaCredito {
++validarTarjeta()
+}
+
+interface Actividad {}
+
+class Consulta {
+-aerolineas : Aerolinea [ ]
++mostrar()
++seleccionarManera()
+}
+class Reserva{
+-fecha
+-horario
++reservar(Vuelo)
++reservarItinerario(Vuelo[])
++reservarAsientos(Asiento)
+}
+class Compra {
++comprar(Reserva)
+}
+
+class ConsultaHorario {
++mostrar()
+}
+class ConsultaTarifa {
++ordenarPrecios()
++mostrar()
+}
+class ConsultaInfo {
++mostrar()
+}
+
+class Aerolinea {
+-vuelos : Vuelo [ ]
+}
+
+class Ciudad {
+-nombre : string
+}
+
+class Vuelo {
+-horario : date
+-precio : float
+-ciudades : Ciudad [ ]
+-asientos[] : Asiento
+-estado : Estado
+-vueloDirecto : boolean
+-tarifa : double
+}
+
+enum Estado {
+-asientosDisponibles : boolean
+-estaEnHora : boolean
+}
+
+class Asiento {
+-categoriaAsiento : string
+}
+
+class Preferencias {
+-fecha : date
+-hora : date
+-aerolínea : Aerolínea
+-categoriaAsiento : string
+-vueloDirecto : boolean
+
++setFiltros()
+}
+
+class Billete {
++enviar()
++recoger()
+}
+
+class Login {
++validarContraseña()
++registrarCliente()
++leerRegistro()
++modificarRegistro()
++cancelarRegistro()
+}
+
+Terminal "1 "--"0:N  " Cliente
+Cliente "1  " o-- "1:N"TarjetaCredito
+Cliente "0:N" - "0:N" Actividad
+Actividad ^-- Consulta
+Preferencias "0:N  " -- "1 " Consulta
+	Consulta ^-- ConsultaHorario
+	Consulta ^-- ConsultaTarifa
+	Consulta ^-- ConsultaInfo
+Actividad ^-- Reserva
+Actividad ^-- Compra
+
+Reserva "1" - "1" Compra
+
+Aerolinea "1" o- "0:N" Vuelo
+Vuelo "1    "*-" N" Asiento
+Vuelo -- Estado
+Vuelo "1:N " o-- "1:N " Ciudad
+Aerolinea "1:N " --- "0:N " Consulta
+
+TarjetaCredito "1" o- "1" Compra
+
+Compra "1" o-- "     1:N"Billete
+Billete "0:1  " --o "1" Cliente
+
+Login "0:N  "-- "1" Cliente
+
+@enduml

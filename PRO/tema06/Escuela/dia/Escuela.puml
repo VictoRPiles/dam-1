@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Escuela {
+	-private Alumno[] grupo
+
+	+public void recuento()
+	+public void alumnoMasVotado()
+	+public ArrayList<Alumno> getDelegados()
+}
+
+class Alumno {
+	-{Static} private static int id = 0
+	-private final int idAlumno
+	-private int votos = 0
+	-private boolean haVotado = false
+	-private boolean delegado = false
+
+	+public void votar(Escuela escuela, int idVotado)
+	+public void masVoto()
+}
+
+Escuela - Alumno
+
+@enduml

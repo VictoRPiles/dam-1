@@ -1,0 +1,17 @@
+1.- Nombre de las distribuciones:
+//distribucion/nombre/text()
+
+2.- Kernel de las distribuciones publicadas en 2017:
+//kernel[@año=2017]
+
+3.- Distribuciones que no usan Gnome:
+//lanzamiento[@escritorio != "gnome"]
+
+4.- Versiones que se publicarán en 2018 (estamos en mayo de 2018):
+//lanzamiento[@año = "2018" and @mes > 5]
+
+5.- Distribuciones publicadas con kérneles de 2017:
+//lanzamiento[@kernel = //kernel[@año="2017"]/@id]/@distribucion
+
+6.- Escritorios utilizados por distribuciones derivadas de Ubuntu
+//lanzamiento[@distribucion = //distribucion[derivada = "ubuntu"]/@id]/@escritorio

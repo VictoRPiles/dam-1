@@ -1,0 +1,8 @@
+El ejemplo siguiente selecciona el título del primer nodo de libro bajo el elemento de librería:
+//book[1]/title/text()
+
+El ejemplo siguiente selecciona el texto de todos los nodos de precios:
+//price/text()
+
+El ejemplo siguiente selecciona todos los nodos de precios con un precio mayor que 35:
+//price[.>35]

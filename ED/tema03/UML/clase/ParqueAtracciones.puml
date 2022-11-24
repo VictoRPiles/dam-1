@@ -1,0 +1,106 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Atraccion <|-- Rusa
+Atraccion <|-- Noria
+
+Componente <|-- Vehiculo
+Componente <|-- Vagon
+
+Atraccion "1:N" *-- "1:N" Componente
+
+Vagon "1" -> "1" Vagon : Si hay
+
+Rusa "1" *-- "N   " Vagon
+Noria "1" *-- "N " Vehiculo
+
+CRA "1" -- "1:N  " Componente
+CRA "1   " - "1:N" Operario
+CRA "1" - "1:N" Dispositivo
+
+Operario "1" - "1" Dispositivo
+Operario "0:N" ---> "0:N" Componente
+Dispositivo "0:N  " ---> "  0:N" Componente
+
+Persona "0:N " -- "1 " ControladorAP
+
+ControladorAP "1    " -* "1:N" Atraccion
+Operario "0:N" --- "0:N" ControladorAP
+
+Atraccion "1" - "1" TorniqueteEntrada
+
+ControladorAP "1" *-- "1" TorniqueteEntrada
+ControladorAP "1" *-- "1" TorniqueteSalida
+
+TorniqueteEntrada "1" - "1" TorniqueteSalida
+
+interface Atraccion {
+-contAverias : int
+
++getAverias()
+}
+
+interface Componente {
++comprovarAnclado()
++informarCRA(Atraccion, String)
++informarAtraccion()
++revisionTerminada()
+}
+
+class Vehiculo {
++comprovarAnclado()
+}
+
+class Vagon {
++comprovarAnclado()
+}
+
+class CRA {
++buscarOperario()
++informarComponente()
++informarDispositivo(String mensaje)
+}
+
+class Operario {
+-extra : double
+-averiasResueltas : int
+
++terminarRevisar()
++arrancarAtraccion()
+}
+
+class Dispositivo {
+-operarioOcupado : boolean
+
++informarCRA(operarioOcupado)
++informarComponente(operarioOcupado)
+}
+
+class ControladorAP {
++arrancar()
++parar()
+}
+
+class Persona {
++entrar()
++abandonarAtraccion()
+}
+
+class TorniqueteEntrada {
+- cantidadPersonas[] : Persona
+
++entrar()
++informarTS(String mensaje)
++reiniciarContador()
++indicadorVerde()
++indicadorAmarillo()
+}
+
+class TorniqueteSalida {
++salir(int cantidad)
++informarTE()
++temporizador()
++hayPersonasDentro()
+}
+
+@enduml

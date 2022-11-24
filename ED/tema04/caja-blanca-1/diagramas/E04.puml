@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+note
+C1: 1,2,3,4,5,7,8,10,11,13,14,15,16	cod_pelicula = 00004
+C2: 1,2,3,4,5,7,8,10,11,12 			cod_pelicula = 00001
+end note
+
+:int Obtener_Pelicula_Disponible (char cod_pelicula[5]);
+:char formato[10], resp;int disponible=0, formato_valido=0;
+
+repeat
+
+:LEER_FORMATO(formato);
+:formato_valido= VALIDAR_FORMATO(formato);
+
+if (formato_valido?) is (false) then
+  :return (FORMATO_NO_EXISTENTE);
+  stop
+else (true)
+  :LEER_TITULO_PELICULA(titulo);
+
+  if (EXISTE_PELICULA(titulo)?) is (false) then
+    :return (PELICULA_NO_EXISTENTE);
+    stop
+  else (true)
+    :disponible= VALIDAR_PELICULA_DISPONIBLE (formato, titulo, cod_pelicula);
+
+    if (disponible?) is (false) then
+      :return (PELICULA_NO_DISPONIBLE);
+      stop
+      note
+      C2
+      end note
+    else (true)
+      :printf(“Ha escogido la pelicula\n %s, en formato %s”, titulo, formato);
+      :printf(“¿Está seguro? (s/n)\\n”);
+      :scanf(“%c”,&resp);
+      note
+      C1: resp = 's'
+      end note
+    endif
+  endif
+endif
+
+repeat while (resp != ’s’?)
+
+stop
+note
+C1
+end note
+
+@enduml

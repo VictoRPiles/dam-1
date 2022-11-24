@@ -1,0 +1,14 @@
+1- Años de elecciones:
+//eleccion/año/text()
+
+2.- Votos de los partidos que han sacado más de 5 escaños en alguna elección:
+//partido[escaños > 5]/votos
+
+3.- Años en el que algún partido sacó más del 30% de los votos:
+//eleccion[resultados/partido/votos > (sum(resultados/partido/votos) * 0.3)]/año
+
+4.- Partidos que sacaron un escaño en 2009:
+//eleccion[año = 2009]/resultados/partido[escaños = 1]/nombre/text()
+
+5.- Escaños que han sacado en 2014 los partidos que sacaron más de 20 escaños en 2009:
+//eleccion[año=2014]//partido[nombre = //eleccion[año = 2009]//partido[escaños > 20]/nombre]/escaños

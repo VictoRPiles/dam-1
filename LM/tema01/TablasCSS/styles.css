@@ -1,0 +1,41 @@
+caption {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: red;
+  text-align: center;
+  caption-side: bottom;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td,
+th {
+  width: 100px;
+  height: 35px;
+}
+th {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red;
+  background-color: lightblue;
+}
+td {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: blue;
+  background-color: lightcoral;
+
+  padding: 10px;
+}
+.hueco {
+  background-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}

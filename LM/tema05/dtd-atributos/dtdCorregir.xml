@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE root [
+		<!ELEMENT root ANY>
+		<!ELEMENT numeros (#PCDATA)>
+
+		<!ELEMENT letras (letra*)>
+		<!ELEMENT letra (#PCDATA)>
+
+		<!ELEMENT colores (color*)>
+		<!ELEMENT color (#PCDATA)>
+
+		<!ELEMENT flores (flor+)>
+		<!ELEMENT flor (#PCDATA)>
+
+		<!ELEMENT animales (animal*)>
+		<!ELEMENT animal (perro, gato)>
+		<!ELEMENT perro (#PCDATA)>
+		<!ELEMENT gato (#PCDATA)>
+
+		<!ELEMENT escritores (escritor*)>
+		<!ELEMENT escritor (nombre, nacimiento)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ELEMENT nacimiento (#PCDATA)>
+
+		<!ELEMENT musicos (musico*)>
+		<!ELEMENT musico (nombre2,apodo, fechaNacimiento)>
+		<!ELEMENT nombre2 (#PCDATA)>
+		<!ELEMENT apodo (#PCDATA)>
+		<!ELEMENT fechaNacimiento (#PCDATA)>
+
+		<!ELEMENT agenda (contacto*)>
+		<!ELEMENT contacto (nombre3, telefonoFijo*, telefonoMovil+)>
+		<!ELEMENT nombre3 (#PCDATA)>
+		<!ELEMENT telefonoFijo (#PCDATA)>
+		<!ELEMENT telefonoMovil (#PCDATA)>
+
+		<!ELEMENT sistemaSolar (cuerpo*)>
+		<!ELEMENT cuerpo (planeta,satelite,asteroide)>
+		<!ELEMENT planeta (#PCDATA)>
+		<!ELEMENT satelite (#PCDATA)>
+		<!ELEMENT asteroide (#PCDATA)>
+
+		<!ELEMENT favoritos (marcador*)>
+		<!ELEMENT marcador (nombre4, uri)>
+		<!ELEMENT nombre4 (#PCDATA)>
+		<!ELEMENT uri (#PCDATA)>
+
+		<!ELEMENT efemerides (efemeride*)>
+		<!ELEMENT efemeride (fecha, hecho)>
+		<!ELEMENT fecha (#PCDATA)>
+		<!ELEMENT hecho (#PCDATA)>
+
+		<!ELEMENT aeropuertos (aeropuerto*)>
+		<!ELEMENT aeropuerto (nombre5, cerrado)>
+		<!ELEMENT nombre5 (#PCDATA)>
+		<!ELEMENT cerrado (#PCDATA)>
+
+		<!ELEMENT vuelos (vuelo*)>
+		<!ELEMENT vuelo (origen, destino)>
+		<!ELEMENT origen (#PCDATA)>
+		<!ELEMENT destino (#PCDATA)>
+
+		<!ELEMENT reyesEspañoles (rey*, reina*)>
+		<!ELEMENT rey (nombre6, padre, madre)>
+		<!ELEMENT reina (nombre6, padre, madre)>
+		<!ELEMENT nombre6 (#PCDATA)>
+		<!ELEMENT padre (#PCDATA)>
+		<!ELEMENT madre (#PCDATA)>
+
+		<!ELEMENT paises (pais*)>
+		<!ELEMENT pais (nombre7, unionEuropea, otan)>
+		<!ELEMENT nombre7 (#PCDATA)>
+		<!ELEMENT unionEuropea EMPTY>
+		<!ELEMENT otan EMPTY>
+
+		<!ELEMENT colores2 (color2*)>
+		<!ELEMENT color2 (codigo, nombreSvg)>
+		<!ELEMENT codigo (rgb | cmyk)>
+		<!ELEMENT nombreSvg (#PCDATA)>
+		<!ELEMENT rgb (#PCDATA)>
+		<!ELEMENT cmyk (#PCDATA)>
+
+
+		<!ELEMENT contabilidad (apunte*)>
+		<!ELEMENT apunte ((ingreso | gasto)*, fecha2, cantidad, concepto)>
+		<!ELEMENT ingreso (#PCDATA)>
+		<!ELEMENT gasto (#PCDATA)>
+		<!ELEMENT fecha2 (#PCDATA)>
+		<!ELEMENT cantidad (#PCDATA)>
+		<!ELEMENT concepto (#PCDATA)>
+		]>
+<root>
+	<numeros>25</numeros>
+
+	<letras>
+		<letra>m</letra>
+		<letra>uve doble</letra>
+	</letras>
+
+	<colores>
+		<color>azul marino</color>
+		<color>negro</color>
+		<color>amarillo</color>
+	</colores>
+
+	<flores>
+		<flor>una flor</flor>
+	</flores>
+
+	<animales>
+		<animal>
+			<perro>Caniche</perro>
+			<gato>Siamés</gato>
+		</animal>
+	</animales>
+
+	<escritores>
+		<escritor>
+			<nombre>Mario Vargas Llosa</nombre>
+			<nacimiento>28 de marzo de 1936</nacimiento>
+		</escritor>
+		<escritor>
+			<nombre>Milan Kundera</nombre>
+			<nacimiento>1 de abril de 1929</nacimiento>
+		</escritor>
+	</escritores>
+
+	<musicos>
+		<musico>
+			<nombre2>Antonio Vivaldi</nombre2>
+			<apodo>El cura pelirrojillo</apodo>
+			<fechaNacimiento>4 de marzo de 1678</fechaNacimiento>
+		</musico>
+		<musico>
+			<nombre2>Johann Sebastian Bach</nombre2>
+			<apodo>El viejo peluca</apodo>
+			<fechaNacimiento>21 de marzo de 1685</fechaNacimiento>
+		</musico>
+	</musicos>
+
+	<agenda>
+		<contacto>
+			<nombre3>Ayuntamiento</nombre3>
+			<telefonoFijo>010</telefonoFijo>
+			<telefonoMovil>Desconocido</telefonoMovil>
+		</contacto>
+		<contacto>
+			<nombre3>Emergencias</nombre3>
+			<telefonoFijo>112 (Unión Europea)</telefonoFijo>
+			<telefonoFijo>911 (Estados Unidos)</telefonoFijo>
+			<telefonoMovil>Desconocido</telefonoMovil>
+		</contacto>
+	</agenda>
+
+
+	<sistemaSolar>
+		<cuerpo>
+			<planeta>Tierra</planeta>
+			<satelite>Luna</satelite>
+			<asteroide>Ceres</asteroide>
+		</cuerpo>
+	</sistemaSolar>
+
+	<favoritos>
+		<marcador>
+			<nombre4>W3C</nombre4>
+			<uri>http://www.w3.org/</uri>
+		</marcador>
+		<marcador>
+			<nombre4>Web Hypertext Application Technology Working Group (WHATWG)</nombre4>
+			<uri>http://www.whatwg.org/</uri>
+		</marcador>
+	</favoritos>
+
+	<efemerides>
+		<efemeride>
+			<fecha>20 de julio de 1969</fecha>
+			<hecho>Llegada del hombre a la Luna</hecho>
+		</efemeride>
+		<efemeride>
+			<fecha>12 de octubre de 1492</fecha>
+			<hecho>Llegada de Colón a América</hecho>
+		</efemeride>
+		<efemeride>
+			<fecha>6 de abril de 1909</fecha>
+			<hecho>llegada de Robert Peary al Polo Norte</hecho>
+		</efemeride>
+	</efemerides>
+
+	<aeropuertos>
+		<aeropuerto>
+			<nombre5>Berlín Schönefeld (SFX)</nombre5>
+			<cerrado/>
+		</aeropuerto>
+		<aeropuerto>
+			<nombre5>Berlín Tempelhof (THF)</nombre5>
+			<cerrado/>
+		</aeropuerto>
+	</aeropuertos>
+
+	<vuelos>
+		<vuelo>
+			<origen>Valencia (VLC)</origen>
+			<destino>Londres Heathrow (LHR)</destino>
+		</vuelo>
+		<vuelo>
+			<origen>París Charles de Gaulle (CDG)</origen>
+			<destino>Berlín Schönefeld (SFX)</destino>
+		</vuelo>
+	</vuelos>
+
+	<reyesEspañoles>
+		<rey>
+			<nombre6>Felipe III</nombre6>
+			<padre>Felipe II</padre>
+			<madre>Ana de Austria</madre>
+		</rey>
+		<rey>
+			<nombre6>Carlos I</nombre6>
+			<padre>Felipe el Hermoso</padre>
+			<madre>Juan la Loca</madre>
+		</rey>
+		<reina>
+			<nombre6>Juana la Loca</nombre6>
+			<padre>Fernando el Católico</padre>
+			<madre>Isabel la Católica</madre>
+		</reina>
+	</reyesEspañoles>
+
+	<paises>
+		<pais>
+			<nombre7>España</nombre7>
+			<unionEuropea/>
+			<otan/>
+		</pais>
+		<pais>
+			<nombre7>Noruega</nombre7>
+			<unionEuropea/>
+			<otan/>
+		</pais>
+		<pais>
+			<nombre7>Austria</nombre7>
+			<unionEuropea/>
+			<otan/>
+		</pais>
+	</paises>
+
+	<colores2>
+		<color2>
+			<codigo>
+				<rgb>#800080</rgb>
+			</codigo>
+			<nombreSvg>Purple</nombreSvg>
+		</color2>
+		<color2>
+			<codigo>
+				<cmyk>#00FF007F</cmyk>
+			</codigo>
+			<nombreSvg>Purple</nombreSvg>
+		</color2>
+	</colores2>
+
+	<contabilidad>
+		<apunte>
+			<ingreso/>
+			<fecha2>24 de febrero de 2011</fecha2>
+			<cantidad>1800,00 €</cantidad>
+			<concepto>Salario</concepto>
+		</apunte>
+		<apunte>
+			<gasto/>
+			<fecha2>28 de febrero de 2011</fecha2>
+			<cantidad>74,25 €</cantidad>
+			<concepto>Recibo luz</concepto>
+		</apunte>
+	</contabilidad>
+</root>

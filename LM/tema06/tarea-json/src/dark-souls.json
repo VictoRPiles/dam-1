@@ -1,0 +1,57 @@
+{
+	"juego": {
+		"nombre": "Dark Souls",
+		"personajes": [
+			{
+				"nombre": "Herrero Andre de Astora",
+				"ubicación": "Parroquia de los no muertos",
+				"jefe": false
+			},
+			{
+				"nombre": "Caballero Lautrec de Carim",
+				"ubicación": "Parroquia de los no muertos",
+				"jefe": false
+			},
+			{
+				"nombre": "Cuervo gigante",
+				"ubicación": "Santuario de Enlace de Fuego",
+				"jefe": false
+			},
+			{
+				"nombre": "Frampt el Buscarreyes",
+				"ubicación": "Santuario de Enlace de Fuego",
+				"jefe": false
+			},
+			{
+				"nombre": "Hermana de Quelaag",
+				"ubicación": "Dominios de Quelaag",
+				"jefe": false
+			},
+			{
+				"nombre": "Quelaag la Bruja del caos",
+				"ubicación": "Dominios de Quelaag",
+				"jefe": true
+			},
+			{
+				"nombre": "Sombrero Grande Logan",
+				"ubicación": "Fortaleza de Sen",
+				"jefe": false
+			},
+			{
+				"nombre": "Ornstein el Asesino de dragones y Smough el Verdugo",
+				"ubicación": "Anor Londo",
+				"jefe": true
+			},
+			{
+				"nombre": "Siegmeyer de Catarina",
+				"ubicación": "Fortaleza de Sen",
+				"jefe": false
+			},
+			{
+				"nombre": "Sif el Gran lobo gris",
+				"ubicación": "Jardín Tenebroso",
+				"jefe": true
+			}
+		]
+	}
+}

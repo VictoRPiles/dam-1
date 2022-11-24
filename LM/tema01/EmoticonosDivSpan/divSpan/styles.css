@@ -1,0 +1,28 @@
+body {
+	background-color: lightgray;
+}
+.contenedor-amarillo {
+	padding: 20px;
+	background-color: yellow;
+}
+.contenedor-amarillo h1 {
+	color: green;
+}
+.contenedor-verde {
+	margin: 20px;
+	padding: 5px;
+	background-color: green;
+}
+.contenedor-verde h1 {
+	color: yellow;
+}
+.miau {
+	font-family: Impact;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #000000;
+
+	color: red;
+}

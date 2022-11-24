@@ -1,0 +1,21 @@
+.rojo {
+	color: red !important;
+}
+
+.azul {
+	color: blue !important;
+}
+
+libro {
+	display: block;
+}
+
+fechaPublicacion {
+	font-size: 2em;
+}
+
+biblioteca {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid black;
+}

@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+note
+C1: 1,2,3,4,5,6,7	tira = {'A','A','A','A'}
+C2: 1,2,3,7		tira = {}
+end note
+
+:int hay_mayor_tira (char tira [4], char letra);
+
+:encontrado=0; j=0; lon=strlen(tira);
+
+while (!encontrado && j<lon)
+  if (tira[j] > letra) is (true) then
+    :encontrado = 1;
+  else (false)
+  endif
+  :j++;
+endwhile
+
+:return encontrado;
+
+stop
+note
+C1: 1
+C2: 0
+end note
+
+@enduml

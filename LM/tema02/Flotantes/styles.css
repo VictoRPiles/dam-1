@@ -1,0 +1,117 @@
+body {
+	padding: .5rem;
+	background-color: #33E7FF;
+
+	font-family: Sans-serif;
+}
+
+h1 {
+	margin: 0px;
+
+	font-size: 4rem;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2rem;
+	color: #005A66;
+}
+
+p {
+	width: 16rem;
+	height: 16rem;
+
+	float: left;
+	overflow: auto;
+
+	margin-right: 1rem;
+	padding: .5rem;
+
+	background-color: #00B4CC;
+	border: 5px dashed #005A66;
+
+	font-size: 1.5rem;
+	font-style: italic;
+	text-align: justify;
+}
+
+p.uno {
+	border: dotted;
+}
+
+p.dos {
+	border-radius: 0 40px 0 40px;
+}
+
+p.tres {
+	border-radius: 40px 0 40px 0;
+}
+
+p.cuatro {
+	border-radius: 40px;
+}
+
+p.cinco {
+	border: inset;
+	border-radius: 0 40px;
+}
+
+p.seis {
+	border-radius: 0 0 100px 0;
+}
+
+p.siete {
+	border: outset;
+}
+
+p.ocho {
+	border: dotted;
+	border-radius: 2rem;
+}
+
+p.nueve {
+	border: 5px solid #008000;
+}
+
+p.diez {
+	border: 5px solid #FF0000;
+}
+
+p.diez:hover {
+	border: 5px solid #008000;
+}
+
+p.once {
+	border: dotted;
+}
+
+p.once:hover {
+	border: inset;
+}
+
+p.doce:hover {
+	border-radius: 100px;
+}
+
+p.trece:hover {
+	border: 10px dashed #005A66;
+}
+
+p.catorce:hover {
+	border: none;
+}
+
+p.quince {
+	border-radius: 10px;
+}
+
+p.quince:hover {
+	border-radius: 0;
+}
+
+p::first-letter {
+	float: left;
+
+	font-size: 4rem;
+	font-style: normal;
+	line-height: 3rem;
+	color: #005A66;
+}

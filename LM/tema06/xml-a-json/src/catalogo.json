@@ -1,0 +1,20 @@
+{
+	"catalogo": {
+		"cd": [
+			{
+				"titulo": "Tinta roja",
+				"artista": "Andres Calamaro",
+				"origen": "AR",
+				"precio": 5.90,
+				"anyo": 2006
+			},
+			{
+				"titulo": "La Lengua Popular",
+				"artista": "Andres Calamaro",
+				"origen": "AR",
+				"precio": 9.90,
+				"anyo": 2007
+			}
+		]
+	}
+}

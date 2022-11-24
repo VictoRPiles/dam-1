@@ -1,0 +1,116 @@
+@font-face {
+	font-family: Italianno;
+	src: url("italianno-v7-latin-regular.woff2");
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	background-image: url("fondo.jpg");
+	margin: 20px;
+}
+
+.columna {
+	float: left;
+}
+
+.izquierda, .derecha {
+	width: 25%;
+}
+
+.medio {
+	width: 50%;
+	margin: auto;
+}
+
+.quote {
+	background-color: #CDE1E4;
+	margin: 0 auto 10%;
+
+	width: 80%;
+	height: 40%;
+
+	border: 5px solid black;
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+
+.quote p {
+	height: auto;
+	margin-bottom: 5%;
+	padding: 0 15px;
+}
+
+.quote .corazones {
+	padding: 0;
+	text-align: center;
+}
+
+.quote img {
+	width: 24%;
+}
+
+.calabera {
+	background-image: url("128128-skull.svg");
+}
+
+/* Borra el caracter " que añade la etiqueta <q> */
+q:before, q:after {
+	content: "";
+}
+
+.quote p q {
+	font-family: Italianno;
+	text-align: left;
+	font-size: 3rem;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.quote .cite { /* Si no creo un selector CSS no me deja alinear el texto ¿? */
+	font-family: Arial;
+	font-size: 1.2rem;
+	text-align: center;
+	font-style: normal;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 4.5rem;
+
+	text-transform: uppercase;
+	text-align: center;
+
+	color: #746A24;
+}
+
+.biografia {
+	position: absolute;
+	top: calc(50% - 10%);
+	left: calc(50% - 20%);
+
+	width: 40%;
+	height: 20%;
+
+	/* Centrar el contenido verticalmente */
+	display: flex;
+	justify-content: center;
+
+	padding: 5px;
+
+	background-color: #CDE1E4;
+
+	font-family: Arial;
+	font-size: 1.5rem;
+	text-align: justify;
+}
+
+.biografia p {
+	height: auto;
+	margin: auto;
+}

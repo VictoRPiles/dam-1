@@ -1,0 +1,4 @@
+<!ELEMENT animales (animal*)>
+<!ELEMENT animal (perro, gato)>
+<!ELEMENT perro (#PCDATA)>
+<!ELEMENT gato (#PCDATA)>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<carrera>
+	<corredor>
+		<dorsal>1</dorsal>
+		<nombre>victor</nombre>
+	</corredor>
+	<corredor>
+		<dorsal>2</dorsal>
+		<nombre>ivan</nombre>
+	</corredor>
+	<corredor>
+		<dorsal>3</dorsal>
+		<nombre>alfonso</nombre>
+	</corredor>
+</carrera>

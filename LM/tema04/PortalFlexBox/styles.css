@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+	box-sizing: border-box;
+
+	font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+	background-image: url("img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+	background-color: #FFFFFF;
+	border: 2px solid #DB3A34;
+
+	list-style: none;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	list-style: none;
+}
+
+.desplegable {
+	display: none;
+	position: absolute;
+
+	min-width: 160px;
+	padding: 12px 16px;
+
+	text-align: center;
+	background-color: #FFFFFF;
+	border-bottom: 3px solid #EA2100;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+	z-index: 1;
+}
+
+.trigger:hover .desplegable {
+	display: block;
+}
+
+nav a {
+	padding: 5px 10px;
+
+	font-weight: bold;
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: #EA2100;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 0.2em;
+	color: #FF0000;
+}
+
+.desplegable a {
+	font-size: 1rem;
+}
+
+.portal {
+	display: flex;
+	justify-content: space-between;
+}
+
+img {
+	width: 50%;
+
+	background-color: rgba(255, 255, 255, 0.5);
+
+	border: 3px solid;
+	border-left-color: #FFB700;
+	border-right-color: #FFB700;
+	border-top-color: #36B3FF;
+	border-bottom-color: #36B3FF;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 900px) {
+	body {
+		height: 100%;
+	}
+
+	img {
+		width: 50%;
+		border-width: 2px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		height: 100%;
+	}
+
+
+	.portal {
+		flex-wrap: wrap;
+	}
+
+	img {
+		width: 100%;
+		border-width: 1px;
+	}
+}

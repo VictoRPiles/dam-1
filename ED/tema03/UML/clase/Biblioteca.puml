@@ -1,0 +1,67 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Libro {
+-nombre : string
+-tipo : Tipo
+-editorial : string
+-año : fecha
+}
+
+enum Tipo {
+*novela
+*teatro
+*poesia
+*ensayo
+}
+
+class Autor {
+-nombre : string
+-nacionalidad : string
+-nacimiento : fecha
+}
+
+class Copia {
+	-identificador : int
+	-estado : EstadoCopia
+}
+
+enum EstadoCopia {
+	*biblioteca
+	*prestada
+	*retraso
+	*reparacion
+}
+
+<> PrestamoRel
+annotation Prestamo {
+-fecha_inicio : fecha
+-fecha_final : fecha
+}
+
+class Lector {
+-dni : string
+-numSocio : int
+-nombre : string
+-direccion : string
+
++devolver(numSocio, fecha : fecha)
++prestar(numSocio, fecha : fecha)
++multar(dias : int)
+}
+
+class Multa {
+-fecha_inicio : fecha
+-fecha_final : fecha
+}
+
+Libro - Tipo
+Autor "N "--"1:N "Libro
+Libro "1  "<|--"1:N " Copia
+Copia - EstadoCopia
+Lector "0:1"- PrestamoRel
+PrestamoRel - "1:3" Copia
+PrestamoRel -- Prestamo
+Lector "1 "--"0:1 " Multa
+
+@enduml

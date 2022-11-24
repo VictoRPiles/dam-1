@@ -1,0 +1,17 @@
+1.- Nombres de los músicos:
+//musico/nombre/text()
+
+2.- Nombres de las óperas:
+//obra[genero[@nombre = "ópera"]]/nombre/text()
+
+3.- Autores de obras para piano:
+//obra[genero[instrumento = "piano"]]/autor
+
+4.- Nombre de los músicos que nacieron y murieron en el siglo XVIII:
+//musico[fechas[@nacimiento > 1700 and @muerte < 1800]]/nombre
+
+5.- Obras de autores italianos:
+//obra[autor = //musico[pais = "Italia"]/@id]/nombre/text()
+
+6.- Año de nacimiento del autor de La Traviata:
+//musico[@id = //obra[nombre = "La Traviata"]/autor]/fechas/@nacimiento

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elecciones>
+	<partidos>
+		<partido nombre="PPCV">Partido Popular de la Comunidad Valenciana</partido>
+		<partido nombre="PSPV">Partido Socialista del País Valenciano</partido>
+		<partido nombre="CC">Coalició Compromís</partido>
+		<partido nombre="EUPV">Esquerra Unida del País Valencià</partido>
+		<partido nombre="P">Podemos</partido>
+		<partido nombre="Cs">Ciudadanos - Partido de la Ciudadanía</partido>
+	</partidos>
+</elecciones>

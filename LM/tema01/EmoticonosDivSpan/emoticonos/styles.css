@@ -1,0 +1,75 @@
+body {
+	background-color: #FEF8E6;
+	padding: 0px 20%;;
+
+	font-family: Helvetica;
+	font-size: 32px;
+}
+
+h1 {
+	font-size: 65px;
+
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+	clear: both;
+}
+
+q {
+	font-style: italic;
+}
+
+.emoji-float {
+	clear: none;
+}
+
+.emoticonos-puck {
+	display: block;
+	margin: 0 auto;
+}
+
+.smiley {
+	float: left;
+
+	margin: 10px 10px 10px 0;
+}
+
+.cuatro-emojis {
+	height: 100px;
+	vertical-align: middle;
+}
+
+.alegria {
+	height: 100px;
+	vertical-align: middle;
+}
+
+pre {
+	margin: 0 10%;
+	padding: 5px;
+
+	border: black 2px solid;
+	background-color: #EEEEEE;
+
+	white-space: pre-wrap;
+}
+
+
+hr {
+	width: 50%;
+	height: 4px;
+
+	margin-top: 30px;
+
+	background-color: #000000;
+
+	clear: both;
+}
+
+address hr {
+	width: 100%;
+	height: 1px;
+}

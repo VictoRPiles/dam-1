@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE index [
+		<!ELEMENT index (continente, pais, capital, ejemplo)>
+		<!ELEMENT continente (#PCDATA)>
+		<!ELEMENT pais (#PCDATA)>
+		<!ELEMENT capital (#PCDATA)>
+		<!ELEMENT ejemplo EMPTY>
+		]>
+
+<index>
+	<continente>Europa</continente>
+	<pais>España</pais>
+	<capital>Madrid</capital>
+	<ejemplo/>
+</index>

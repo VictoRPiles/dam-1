@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: "Ubuntu";
+  height: 100%;
+  background: linear-gradient(#e95420, #77216f);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 20%;
+
+  margin-bottom: 10px;
+}
+.menu {
+  width: 100%;
+
+  text-align: center;
+  padding: 0.5em;
+
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2em;
+  color: #e95420;
+
+  margin: 0.5em;
+}
+.menu a:hover {
+  text-decoration: underline;
+  color: #772953;
+}
+.secciones section {
+  background: #ffffff90;
+
+  text-align: justify;
+
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  border-radius: 5px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 200px;
+}
+.secciones h1 {
+  text-align: center;
+}
+.secciones table {
+  text-align: center;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.secciones table th {
+  border: 1px solid #000000;
+  padding: 0.2em 0.4em;
+}
+.secciones table td {
+  border: 1px solid #000000;
+  padding: 0.2em 0.4em;
+}

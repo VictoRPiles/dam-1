@@ -1,0 +1,10 @@
+a)	mkdir -p ~/DAM/examen
+b)	ls -sh /etc/*.conf > /home/victor/DAM/examen/info.txt
+c)	ls -d /etc/g???? >> /home/victor/DAM/examen/info.txt
+d)	cp /etc/passwd /home/victor/
+e)	mv passwd usuarios
+f)	chmod g=rx usuarios
+g)	chmod 444 usuarios
+h)	chown ricardo usuarios && chgrp alumno usuarios
+i)	mv usuarios DAM/
+j)	rm -rf DAM/

@@ -1,0 +1,25 @@
+1.- 
+d) devuelve_autor, devuelve_editorial 
+2.- 
+a) a=n FALSO        Animal hereda de naturaleza
+b) e=r FALSO        Heradan de hervíboro, pero no hay herencia entre ellos
+c) h=e VERDADERO
+d) a=h VERDADERO
+3.-
+9 0
+9 1
+4.-
+Estoy en un objeto de clase Dos con i:3
+Estoy en un objeto de clase Tres con i:2
+5.-
+AAA 
+1100.0
+BBB   
+1200.0
+BBB   
+1400.0
+6.-
+6.-
+Error, no se puede instanciar una clase abstracta.
+7.-
+8

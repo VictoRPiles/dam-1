@@ -1,0 +1,83 @@
+[
+  {
+	"nombre": "Parque 1",
+	"comunidad autonoma": "Valencia",
+	"tipo": "Albufera",
+	"especie": [
+	  {
+		"nombre": "Gaviota",
+		"individuos": 100,
+		"tipo": "Ave"
+	  },
+	  {
+		"nombre": "Anguila",
+		"individuos": 200,
+		"tipo": "Reptil"
+	  },
+	  {
+		"nombre": "Conejo",
+		"individuos": 310,
+		"tipo": "Mamífero"
+	  },
+	  {
+		"nombre": "Garza",
+		"individuos": 125,
+		"tipo": "Ave"
+	  }
+	]
+  },
+  {
+	"nombre": "Parque 2",
+	"comunidad autonoma": "Madrid",
+	"tipo": "Ciudad",
+	"especie": [
+	  {
+		"nombre": "Mariposas",
+		"individuos": 100,
+		"tipo": "Insecto"
+	  },
+	  {
+		"nombre": "Ardilla",
+		"individuos": 200,
+		"tipo": "Mamífero"
+	  },
+	  {
+		"nombre": "Serpiente",
+		"individuos": 310,
+		"tipo": "Reptil"
+	  },
+	  {
+		"nombre": "Conejo",
+		"individuos": 110,
+		"tipo": "Mamífero"
+	  }
+	]
+  },
+  {
+	"nombre": "Parque 3",
+	"comunidad autonoma": "Galicia",
+	"tipo": "Mar",
+	"especie": [
+	  {
+		"nombre": "Gaviota",
+		"individuos": 100,
+		"tipo": "Ave"
+	  },
+	  {
+		"nombre": "Cangrejo",
+		"individuos": 200,
+		"tipo": "Crustáceo"
+	  },
+	  {
+		"nombre": "Mejillones",
+		"individuos": 110,
+		"tipo": "Moluscos"
+	  },
+	  {
+		"nombre": "Boquerones",
+		"individuos": 125,
+		"tipo": "Pez"
+	  }
+	]
+  }
+]

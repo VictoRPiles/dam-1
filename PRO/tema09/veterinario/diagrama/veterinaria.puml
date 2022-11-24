@@ -1,0 +1,65 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' SITIOS
+class Clinica {
+	- HashSet<Cliente> clientes
+	- ArrayList<Perro> perrosVacunados
+
+	+ boolean addCliente(Cliente c)
+	+ boolean removeCliente(String dni)
+	+ void vacunarPerro(String dni, String nombreMascota)
+	+ void printClientes()
+	+ void printPerrosVacunados()
+}
+
+' PERSONAS
+abstract class Persona {
+	- {static} HashSet<String> listaDni
+	- String dni
+	- String nombre
+	- String apellido
+
+	+ String validarDni(String dni)
+}
+class Cliente extends Persona {
+	- HashSet<Mascota> mascotas
+
+	+ boolean addMascota(Mascota m)
+	+ boolean removeMascota(Mascota m)
+}
+
+' ANIMALES
+enum Especie {}
+abstract class Mascota {
+	- {static} TreeSet<Integer> listaId
+	- int id
+	- String nombre
+	- LocalDate fechaNacimiento
+	- Especie especie
+
+	+ int validarId(int id)
+	+ int getNextId()
+}
+class Ave extends Mascota {
+	- int numeroAnilla
+}
+class Pez extends Mascota {}
+class Mamifero extends Mascota implements Vacunable {
+	- LocalDate fechaVacunacion
+	- boolean vacunado
+
+	+ @Override vacunar()
+}
+class Perro extends Mamifero {}
+
+interface Vacunable {
+	# void vacunar()
+}
+
+Clinica -- Cliente
+Clinica -- Mascota
+Cliente - Mascota
+Mascota - Especie
+
+@enduml

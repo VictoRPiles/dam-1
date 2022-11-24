@@ -1,0 +1,3 @@
+<!ELEMENT saludo (hola,nombre)>
+<!ELEMENT hola (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>

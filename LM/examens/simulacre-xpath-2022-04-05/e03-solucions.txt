@@ -1,0 +1,19 @@
+1.- Marcas de coches francesas
+//marca[@pais = "Francia"]/@nombre
+
+2.- Nombre de los modelos de coches que se han vendido a partir del 2012
+//modelo[@inicio >= 2012]/@nombre
+
+3.- Modelos de coches que ya no se fabrican y que se podían comprar en el 2000
+//modelo[@inicio >= 2000 and @final < 2022]/@nombre
+
+4.- Modelos de coches que se fabricaron durante al menos 10 años
+
+5.- Marca de los coches del año
+//modelo[@nombre = //caroftheyear/@modelo]/@marca
+
+6.- Tamaño de los coches que se dejaron de fabricar en 2005
+//categoria[segmento = //modelo[@final = 2005]/@categoria]/size
+
+7.- Marcas de los coches de tamaño subcompact
+//modelo[@categoria = "B"]/@marca

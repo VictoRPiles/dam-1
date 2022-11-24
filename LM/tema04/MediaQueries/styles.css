@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+	font-family: 'JetBrains Mono', monospace;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #323031;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+	background-color: #FFC857;
+	border: 2px solid #DB3A34;
+
+	list-style: none;
+}
+
+nav a {
+	padding: 10px;
+
+	text-transform: uppercase;
+	text-decoration: none;
+
+	font-weight: bold;
+	color: #DB3A34;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 0.2em;
+}
+
+.fotos {
+	display: flex;
+	flex-direction: column;
+
+	width: 95%;
+	height: auto;
+
+	margin: 1% auto;
+
+	background-color: #FFC857;
+	border: 2px solid #DB3A34;
+}
+
+.fila {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+/* 4 COLUMNAS */
+.columna {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+
+.columna img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+/* PARA PANTALLAS DE MENOS DE 900px DE ANCHO */
+@media screen and (max-width: 900px) {
+	body {
+		background-color: #084C61;
+	}
+
+	.columna {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+/* PARA PANTALLAS DE MENOS DE 600px DE ANCHO */
+@media screen and (max-width: 600px) {
+	body {
+		background-color: #177E89;
+	}
+
+	.columna {
+		flex: 100%;
+		max-width: 100%;
+	}
+}

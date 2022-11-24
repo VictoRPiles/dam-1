@@ -1,0 +1,25 @@
+1.- ¿Qué es un control de versiones? ¿Que permite?
+Un sistema de control de versiones permite la gestión de los cambios que se realizan sobre los elementos de algún proyecto. Una versión es el estado en el que se encuentra el mismo en un momento dado.
+
+2.- ¿Qué utilidad tiene etiquetar?
+Permiten organizar las diferentes ramas o cambios y darles un nombre indicativo.
+
+3.- ¿Qué es un repositorio?
+Es un espacio donde se almacena y organizan los archivos.
+
+4.- ¿Cuándo se realiza un commit o chekin?
+Al terminar alguna tarea como realizar una nueva funcionalidad o arreglar algún error.
+
+5.- ¿Qué es una rama? ¿Para qué se suelen crear?
+Una rama es una versión paralela e independiente de los archivos del proyecto, se suele crear para no modificar el código principal, se trabaja en la rama y cuando se termina se hace un "merge" a la rama principal. También sirve para mantener distintas versiones a la vez.
+
+6.- ¿En qué consiste una fusión o merge?
+Consiste en fusionar archivos que provienen de versiones distintas, de forma que se mantienen las partes comunes y se agregan las partes nuevas.
+
+7.- Explica el flujo de trabajo habitual con un programa de control de versiones
+Este flujo suele ser centralizado en un repositorio donde se sincronizan los cambios, y cada contribuidor tiene una copia privada de este en local.
+Estos modifican el repositorio local y después sincronizan los cambios en el repositorio central.
+
+8.- Clonar y bifurcar. De qué se trata y en qué se diferencian
+Clonar consiste en descargar el repositorio a uno local privado, normalmente para fusionar los cambios posteriormente.
+Bifurcar consiste en continuar el desarrollo en un repositorio distinto e independiente.

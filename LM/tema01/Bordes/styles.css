@@ -1,0 +1,55 @@
+p {
+	font-family: Arial;
+	font-size: 3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+div {
+	height: 100px;
+	margin-top: 10px;
+	background-color: #555555;
+	border-radius: 10px;
+}
+
+div.solid {
+	border: 3px solid #FF4444;
+}
+
+div.solid:hover {
+	border: 3px solid #00FF80;
+}
+
+div.dotted {
+	border: 3px dotted #FF4444;
+}
+
+div.dotted:hover {
+	border: 3px dotted #00FF80;
+}
+
+div.dashed {
+	border: 3px dashed #FF4444;
+}
+
+div.dashed:hover {
+	border: 3px dashed #00FF80;
+}
+
+div.inset {
+	border: 3px inset #FF4444;
+}
+
+div.inset:hover {
+	border: 3px inset #00FF80;
+}
+
+div.outset {
+	border: 3px outset #FF4444;
+}
+
+div.outset:hover {
+	border: 3px outset #00FF80;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index SYSTEM "continentes.dtd">
+
+<index>
+	<continente>Europa</continente>
+	<pais>España</pais>
+	<capital>Madrid</capital>
+	<ejemplo />
+</index>

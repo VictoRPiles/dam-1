@@ -1,0 +1,2 @@
+Cliente{DNI='1', nombre='victor'} | Perro{ID=1, nombre=ivan, vacunado=true, fechaVacunacion=2022-05-09}
+Cliente{DNI='1', nombre='victor'} | Perro{ID=1, nombre=ivan, vacunado=true, fechaVacunacion=2022-05-09}

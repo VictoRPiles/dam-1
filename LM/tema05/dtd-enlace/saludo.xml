@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE saludo SYSTEM "saludo.dtd">
+
+<saludo>
+	<hola>Hola mundo</hola>
+	<nombre>Soy Anyelguti</nombre>
+</saludo>

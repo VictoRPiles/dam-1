@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reyes SYSTEM "reyes.dtd">
+
+<reyes>
+	<rey>
+		<nombre6>Felipe III</nombre6>
+		<padre>Felipe II</padre>
+		<madre>Ana de Austria</madre>
+	</rey>
+	<rey>
+		<nombre6>Carlos I</nombre6>
+		<padre>Felipe el Hermoso</padre>
+		<madre>Juan la Loca</madre>
+	</rey>
+	<reina>
+		<nombre6>Juana la Loca</nombre6>
+		<padre>Fernando el Católico</padre>
+		<madre>Isabel la Católica</madre>
+	</reina>
+</reyes>
