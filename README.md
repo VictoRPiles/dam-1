@@ -1,8 +1,7 @@
-# 1DAM
-Fitxers del curs 1DAM Abastos.
+# dam-1
+Fitxers del curs 1r DAM a IES Abastos. 
 
-<pre>
-.
+<pre>.
 ├── BD
 │   ├── examens
 │   │   ├── Examen-2022-02-09
@@ -18,29 +17,29 @@ Fitxers del curs 1DAM Abastos.
 │   │   ├── artista-album-cancion.drawio.pdf
 │   │   └── artista-album-cancion.ods
 │   ├── tema02
-│   │   ├── Ejercicios ER.pdf
-│   │   ├── T2_Disenno_Conceptual.pdf
 │   │   ├── articulos-encargos.drawio
 │   │   ├── articulos-encargos.drawio.pdf
 │   │   ├── casa-comidas.drawio
 │   │   ├── casa-comidas.drawio.pdf
 │   │   ├── casas-colonias.drawio
 │   │   ├── casas-colonias.drawio.pdf
+│   │   ├── Ejercicios ER.pdf
 │   │   ├── nominas.drawio
 │   │   ├── nominas.drawio.pdf
 │   │   ├── paradores.drawio
 │   │   ├── paradores.drawio.pdf
 │   │   ├── startreck.drawio
 │   │   ├── startreck.drawio.pdf
+│   │   ├── T2_Disenno_Conceptual.pdf
 │   │   ├── transporte.drawio
 │   │   └── transporte.drawio.pdf
 │   ├── tema03
 │   │   ├── Ejercicio de normalización.pdf
 │   │   ├── Ejercicios ModRelacional.pdf
-│   │   ├── T3_1_Modelo_Relacional.pdf
-│   │   ├── T3_2_Normalizacion.pdf
 │   │   ├── entidad-relacion-tablas.ods
-│   │   └── normalizacion.ods
+│   │   ├── normalizacion.ods
+│   │   ├── T3_1_Modelo_Relacional.pdf
+│   │   └── T3_2_Normalizacion.pdf
 │   ├── tema04
 │   │   ├── Articulos
 │   │   │   ├── create.sql
@@ -50,31 +49,23 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   ├── nba.sql
 │   │   │   └── select.sql
 │   │   ├── Saguaro
-│   │   │   ├── SAC_DeepSky_Ver81_QCQ.txt
-│   │   │   ├── Sacdoc.txt
 │   │   │   ├── catal_descrip.txt
 │   │   │   ├── catalogos.txt
 │   │   │   ├── constelaciones.txt
 │   │   │   ├── create.sql
 │   │   │   ├── insert.sql
+│   │   │   ├── SAC_DeepSky_Ver81_QCQ.txt
+│   │   │   ├── Sacdoc.txt
 │   │   │   ├── saguaro-dump.sql
 │   │   │   ├── select.sql
 │   │   │   ├── types.txt
 │   │   │   └── uso_saguaro.sql
 │   │   └── Visitas
-│   │       ├── Lista Registro de visitas.ods
 │   │       ├── create.sql
 │   │       ├── insert.sql
+│   │       ├── Lista Registro de visitas.ods
 │   │       └── select.sql
 │   ├── tema05
-│   │   ├── Procedimientos01
-│   │   │   └── procedure.sql
-│   │   ├── Triggers
-│   │   │   ├── create.sql
-│   │   │   └── insert.sql
-│   │   ├── Vistas
-│   │   │   ├── createView.sql
-│   │   │   └── select.sql
 │   │   ├── consultas-propuestas
 │   │   │   ├── Ejercicios Propuestos.txt
 │   │   │   └── src
@@ -93,37 +84,40 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── e02.sql
 │   │   │       ├── e03.sql
 │   │   │       └── e04.sql
-│   │   └── informe
-│   │       └── src
-│   │           └── informe.sql
+│   │   ├── informe
+│   │   │   └── src
+│   │   │       └── informe.sql
+│   │   ├── Procedimientos01
+│   │   │   └── procedure.sql
+│   │   ├── Triggers
+│   │   │   ├── create.sql
+│   │   │   └── insert.sql
+│   │   └── Vistas
+│   │       ├── createView.sql
+│   │       └── select.sql
 │   └── tema06
 │       └── niveles
 │           └── src
 │               └── getCodigoNivelSuperior.sql
 ├── ED
 │   ├── apunts
-│   │   ├── apunts-U2-U3.odt
-│   │   ├── apunts-U2-U3.pdf
 │   │   ├── apunts-tercer-trimestre.odt
-│   │   └── apunts-tercer-trimestre.pdf
+│   │   ├── apunts-tercer-trimestre.pdf
+│   │   ├── apunts-U2-U3.odt
+│   │   └── apunts-U2-U3.pdf
 │   ├── tema01
-│   │   ├── ED-U01-B1-DesarrolloDeSoftware.pdf
-│   │   ├── ED-U01-B2-Algoritmica y Pseudocódigo JAVA.pdf
-│   │   ├── ED-U01-B2-Algoritmos.pdf
-│   │   ├── ED-U01-B2-DesarrolloDeSoftware.pdf
-│   │   ├── ED-U01-B3-Ciclos de Vida.pdf
 │   │   ├── algoritmos1
-│   │   │   ├── ED-U01-B2-EjerciciosAlgoritmos-1.pdf
 │   │   │   ├── algoritmosPsint.odt
 │   │   │   ├── algoritmosPsint.pdf
+│   │   │   ├── ED-U01-B2-EjerciciosAlgoritmos-1.pdf
 │   │   │   └── pseint
 │   │   │       ├── algoritmosPsint.pdf
-│   │   │       ├── ej1.psc
 │   │   │       ├── ej10.psc
 │   │   │       ├── ej11.psc
 │   │   │       ├── ej12.psc
 │   │   │       ├── ej13.psc
 │   │   │       ├── ej14.psc
+│   │   │       ├── ej1.psc
 │   │   │       ├── ej2.psc
 │   │   │       ├── ej3.psc
 │   │   │       ├── ej4.psc
@@ -144,9 +138,14 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── alternativa4.png
 │   │   │       └── alternativa4.psc
 │   │   ├── ciclos
-│   │   │   ├── ED-U01-B3-EjerciciosCiclosDeVida Parcial.pdf
 │   │   │   ├── ciclos_vida.odt
-│   │   │   └── ciclos_vida.pdf
+│   │   │   ├── ciclos_vida.pdf
+│   │   │   └── ED-U01-B3-EjerciciosCiclosDeVida Parcial.pdf
+│   │   ├── ED-U01-B1-DesarrolloDeSoftware.pdf
+│   │   ├── ED-U01-B2-Algoritmica y Pseudocódigo JAVA.pdf
+│   │   ├── ED-U01-B2-Algoritmos.pdf
+│   │   ├── ED-U01-B2-DesarrolloDeSoftware.pdf
+│   │   ├── ED-U01-B3-Ciclos de Vida.pdf
 │   │   ├── ejerciciosU1
 │   │   │   ├── ED-U01-B1-Ejercicios.pdf
 │   │   │   ├── ejercicios_U1.odt
@@ -156,86 +155,83 @@ Fitxers del curs 1DAM Abastos.
 │   │       ├── fases_desarrollo.odt
 │   │       └── fases_desarrollo.pdf
 │   ├── tema02
-│   │   ├── ED-U02-05.-Eclipse. EntornoGráfico.pdf
+│   │   ├── actividades
+│   │   │   ├── depuracion1-eclipse.odt
+│   │   │   ├── depuracion1-eclipse.pdf
+│   │   │   ├── depuracion1-netbeans.odt
+│   │   │   ├── depuracion1-netbeans.pdf
+│   │   │   ├── depuracion2-eclipse.odt
+│   │   │   ├── depuracion2-eclipse.pdf
+│   │   │   ├── depuracion2-netbeans.odt
+│   │   │   ├── depuracion2-netbeans.pdf
+│   │   │   ├── grafica-eclipse.odt
+│   │   │   ├── grafica-eclipse.pdf
+│   │   │   ├── grafica-netbeans.odt
+│   │   │   ├── grafica-netbeans.pdf
+│   │   │   ├── java_jdk.odt
+│   │   │   ├── java_jdk.pdf
+│   │   │   ├── plugins-netbeans.odt
+│   │   │   ├── plugins-netbeans.pdf
+│   │   │   ├── trello_scrum.odt
+│   │   │   └── trello_scrum.pdf
 │   │   ├── ED_U02-00-UsoED.pdf
 │   │   ├── ED_U02-01.-Eclipse. Instalación y Uso ver2.pdf
-│   │   ├── ED_U02-04-NetBeans-Depurando1.pdf
 │   │   ├── ED_U02-04.-Eclipse. Depurando 1.pdf
 │   │   ├── ED_U02-04.-Eclipse. Depurando 2.pdf
+│   │   ├── ED_U02-04-NetBeans-Depurando1.pdf
+│   │   ├── ED-U02-05.-Eclipse. EntornoGráfico.pdf
 │   │   ├── ED_U02-05-NetBeans-Depurando2.pdf
 │   │   ├── ED_U02-06-Netbeans-Plugins_new.pdf
 │   │   ├── ED_U02-07-NetBeans-EntornoGrafico.pdf
-│   │   ├── ED_U02-EjerciciosInstalacionYEntornoJDK.pdf
-│   │   └── actividades
-│   │       ├── depuracion1-eclipse.odt
-│   │       ├── depuracion1-eclipse.pdf
-│   │       ├── depuracion1-netbeans.odt
-│   │       ├── depuracion1-netbeans.pdf
-│   │       ├── depuracion2-eclipse.odt
-│   │       ├── depuracion2-eclipse.pdf
-│   │       ├── depuracion2-netbeans.odt
-│   │       ├── depuracion2-netbeans.pdf
-│   │       ├── grafica-eclipse.odt
-│   │       ├── grafica-eclipse.pdf
-│   │       ├── grafica-netbeans.odt
-│   │       ├── grafica-netbeans.pdf
-│   │       ├── java_jdk.odt
-│   │       ├── java_jdk.pdf
-│   │       ├── plugins-netbeans.odt
-│   │       ├── plugins-netbeans.pdf
-│   │       ├── trello_scrum.odt
-│   │       └── trello_scrum.pdf
+│   │   └── ED_U02-EjerciciosInstalacionYEntornoJDK.pdf
 │   ├── tema03
 │   │   ├── ED_U03-02-Diagramas de Clase.pdf
 │   │   ├── ED_U03-EjerciciosUML.pdf
-│   │   ├── UML
-│   │   │   ├── casos_uso
-│   │   │   │   ├── Cajero.drawio
-│   │   │   │   ├── Cajero.drawio.png
-│   │   │   │   ├── ED-U03-EjerciciosDiagramasCasosDeUso.pdf
-│   │   │   │   ├── Notas.drawio
-│   │   │   │   ├── Notas.drawio.png
-│   │   │   │   ├── VentasCorreo.drawio
-│   │   │   │   └── VentasCorreo.drawio.png
-│   │   │   └── clase
-│   │   │       ├── AlquilerCoches.png
-│   │   │       ├── AlquilerCoches.puml
-│   │   │       ├── Biblioteca.png
-│   │   │       ├── Biblioteca.puml
-│   │   │       ├── ED-U03-EjerciciosDiagramasDeClase-solucion123.pdf
-│   │   │       ├── ED_U03-EjerciciosDiagramasDeClase.pdf
-│   │   │       ├── Empresa.png
-│   │   │       ├── Empresa.puml
-│   │   │       ├── ParqueAtracciones.png
-│   │   │       ├── ParqueAtracciones.puml
-│   │   │       ├── Vuelo.png
-│   │   │       └── Vuelo.puml
 │   │   ├── teoriaUML.odt
-│   │   └── teoriaUML.pdf
+│   │   ├── teoriaUML.pdf
+│   │   └── UML
+│   │       ├── casos_uso
+│   │       │   ├── Cajero.drawio
+│   │       │   ├── Cajero.drawio.png
+│   │       │   ├── ED-U03-EjerciciosDiagramasCasosDeUso.pdf
+│   │       │   ├── Notas.drawio
+│   │       │   ├── Notas.drawio.png
+│   │       │   ├── VentasCorreo.drawio
+│   │       │   └── VentasCorreo.drawio.png
+│   │       └── clase
+│   │           ├── AlquilerCoches.png
+│   │           ├── AlquilerCoches.puml
+│   │           ├── Biblioteca.png
+│   │           ├── Biblioteca.puml
+│   │           ├── ED_U03-EjerciciosDiagramasDeClase.pdf
+│   │           ├── ED-U03-EjerciciosDiagramasDeClase-solucion123.pdf
+│   │           ├── Empresa.png
+│   │           ├── Empresa.puml
+│   │           ├── ParqueAtracciones.png
+│   │           ├── ParqueAtracciones.puml
+│   │           ├── Vuelo.png
+│   │           └── Vuelo.puml
 │   ├── tema04
-│   │   ├── ED-U04-EjerciciosPruebas.pdf
-│   │   ├── U4-ConceptosDePruebas-PilesVictor.odt
-│   │   ├── U4-ConceptosDePruebas-PilesVictor.pdf
 │   │   ├── caja-blanca-1
+│   │   │   ├── diagramas
+│   │   │   │   ├── E01.png
+│   │   │   │   ├── E01.puml
+│   │   │   │   ├── E02.png
+│   │   │   │   ├── E02.puml
+│   │   │   │   ├── E03.png
+│   │   │   │   ├── E03.puml
+│   │   │   │   ├── E04.png
+│   │   │   │   └── E04.puml
 │   │   │   ├── ED-U04-EjerciciosCajaBlanca1.pdf
 │   │   │   ├── U04-CajaBlancaI-PilesVictor.odt
-│   │   │   ├── U04-CajaBlancaI-PilesVictor.pdf
-│   │   │   └── diagramas
-│   │   │       ├── E01.png
-│   │   │       ├── E01.puml
-│   │   │       ├── E02.png
-│   │   │       ├── E02.puml
-│   │   │       ├── E03.png
-│   │   │       ├── E03.puml
-│   │   │       ├── E04.png
-│   │   │       └── E04.puml
+│   │   │   └── U04-CajaBlancaI-PilesVictor.pdf
 │   │   ├── caja-blanca-2
 │   │   │   ├── ED-U04-EjerciciosCajaBlanca2.pdf
 │   │   │   ├── ED-U04-EjerciciosCajaBlanca2Sol.pdf
+│   │   │   ├── src
+│   │   │   │   └── calcular-media.puml
 │   │   │   ├── U04-CajaBlancaII-PilesVictor.odt
-│   │   │   ├── U04-CajaBlancaII-PilesVictor.pdf
-│   │   │   └── src
-│   │   │       └── calcular-media.puml
+│   │   │   └── U04-CajaBlancaII-PilesVictor.pdf
 │   │   ├── caja-negra-1
 │   │   │   ├── ED-U04-EjerciciosCajaNegra1.pdf
 │   │   │   ├── U04-CajaNegraI-PilesVictor.odt
@@ -250,6 +246,7 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   │   └── Mayor.java
 │   │   │   └── test
 │   │   │       └── MayorTest.java
+│   │   ├── ED-U04-EjerciciosPruebas.pdf
 │   │   ├── junit-01
 │   │   │   ├── ED-U04-EjerciciosJUnit1.pdf
 │   │   │   ├── src
@@ -258,31 +255,32 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   │   └── TipoEmpleado.java
 │   │   │   └── test
 │   │   │       └── EmpleadoBRTest.java
-│   │   └── junit-02
-│   │       ├── ED-U04-EjerciciosJUnit2.pdf
-│   │       ├── src
-│   │       │   ├── calculadora
-│   │       │   │   └── Calculadora.java
-│   │       │   ├── factorial
-│   │       │   │   └── Factorial.java
-│   │       │   └── fecha
-│   │       │       └── Fecha.java
-│   │       └── test
-│   │           ├── calculadora
-│   │           │   └── CalculadoraTest.java
-│   │           ├── factorial
-│   │           │   └── FactorialTest.java
-│   │           └── fecha
-│   │               └── FechaTest.java
+│   │   ├── junit-02
+│   │   │   ├── ED-U04-EjerciciosJUnit2.pdf
+│   │   │   ├── src
+│   │   │   │   ├── calculadora
+│   │   │   │   │   └── Calculadora.java
+│   │   │   │   ├── factorial
+│   │   │   │   │   └── Factorial.java
+│   │   │   │   └── fecha
+│   │   │   │       └── Fecha.java
+│   │   │   └── test
+│   │   │       ├── calculadora
+│   │   │       │   └── CalculadoraTest.java
+│   │   │       ├── factorial
+│   │   │       │   └── FactorialTest.java
+│   │   │       └── fecha
+│   │   │           └── FechaTest.java
+│   │   ├── U4-ConceptosDePruebas-PilesVictor.odt
+│   │   └── U4-ConceptosDePruebas-PilesVictor.pdf
 │   └── tema05
-│       ├── ED_U05-01-Control de Versiones.pdf
 │       ├── cuestiones-control-versiones
 │       │   ├── ED-U05-E0 - Cuestiones Control de Versiones.pdf
 │       │   └── U05-Cuestiones-PilesVictor.txt
 │       ├── documentacion
-│       │   ├── ED-U05-EjerciciosDocumentación.pdf
 │       │   ├── documentacion.odt
 │       │   ├── documentacion.pdf
+│       │   ├── ED-U05-EjerciciosDocumentación.pdf
 │       │   ├── javadoc-circulo
 │       │   │   ├── default
 │       │   │   │   ├── allclasses-index.html
@@ -304,9 +302,9 @@ Fitxers del curs 1DAM Abastos.
 │       │   │   │   ├── legal
 │       │   │   │   │   ├── ADDITIONAL_LICENSE_INFO
 │       │   │   │   │   ├── ASSEMBLY_EXCEPTION
-│       │   │   │   │   ├── LICENSE
 │       │   │   │   │   ├── jquery.md
-│       │   │   │   │   └── jqueryUI.md
+│       │   │   │   │   ├── jqueryUI.md
+│       │   │   │   │   └── LICENSE
 │       │   │   │   ├── member-search-index.js
 │       │   │   │   ├── module-search-index.js
 │       │   │   │   ├── overview-tree.html
@@ -359,9 +357,9 @@ Fitxers del curs 1DAM Abastos.
 │       │   │       ├── legal
 │       │   │       │   ├── ADDITIONAL_LICENSE_INFO
 │       │   │       │   ├── ASSEMBLY_EXCEPTION
-│       │   │       │   ├── LICENSE
 │       │   │       │   ├── jquery.md
-│       │   │       │   └── jqueryUI.md
+│       │   │       │   ├── jqueryUI.md
+│       │   │       │   └── LICENSE
 │       │   │       ├── member-search-index.js
 │       │   │       ├── module-search-index.js
 │       │   │       ├── overview-tree.html
@@ -396,9 +394,9 @@ Fitxers del curs 1DAM Abastos.
 │       │   │   ├── allpackages-index.html
 │       │   │   ├── copy.svg
 │       │   │   ├── documentacion
-│       │   │   │   ├── Empleado.html
 │       │   │   │   ├── class-use
 │       │   │   │   │   └── Empleado.html
+│       │   │   │   ├── Empleado.html
 │       │   │   │   ├── package-summary.html
 │       │   │   │   ├── package-tree.html
 │       │   │   │   └── package-use.html
@@ -417,9 +415,9 @@ Fitxers del curs 1DAM Abastos.
 │       │   │   ├── legal
 │       │   │   │   ├── ADDITIONAL_LICENSE_INFO
 │       │   │   │   ├── ASSEMBLY_EXCEPTION
-│       │   │   │   ├── LICENSE
 │       │   │   │   ├── jquery.md
-│       │   │   │   └── jqueryUI.md
+│       │   │   │   ├── jqueryUI.md
+│       │   │   │   └── LICENSE
 │       │   │   ├── member-search-index.js
 │       │   │   ├── module-search-index.js
 │       │   │   ├── overview-tree.html
@@ -453,6 +451,7 @@ Fitxers del curs 1DAM Abastos.
 │       │       └── documentacion
 │       │           ├── Circulo.java
 │       │           └── Empleado.java
+│       ├── ED_U05-01-Control de Versiones.pdf
 │       ├── git-01-02
 │       │   ├── ED_U05-E1-Manejo básico de Git. Prácticas I y II.pdf
 │       │   ├── git-01-02.odt
@@ -467,8 +466,6 @@ Fitxers del curs 1DAM Abastos.
 │       │   ├── 6.png
 │       │   ├── ED_U05-E3-GitHub. Práctica III.pdf
 │       │   └── practicaFork
-│       │       ├── LICENSE
-│       │       ├── README.md
 │       │       ├── capturas
 │       │       │   ├── 1.png
 │       │       │   ├── 2.png
@@ -479,7 +476,9 @@ Fitxers del curs 1DAM Abastos.
 │       │       │   └── capturas.txt
 │       │       ├── discos.txt
 │       │       ├── libros.txt
-│       │       └── peliculas.txt
+│       │       ├── LICENSE
+│       │       ├── peliculas.txt
+│       │       └── README.md
 │       ├── github-git-cheat-sheet.pdf
 │       ├── netbeans-git-04
 │       │   ├── ED_U05-E4-Git - NetBeans. Práctica IV.pdf
@@ -589,7 +588,6 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   ├── xpath parte1 simulacro.pdf
 │   │   │   └── xpath parte2.pdf
 │   │   └── simulacre-xpath-2022-04-05
-│   │       ├── Prueba XPATH.pdf
 │   │       ├── e01-solucions.xml
 │   │       ├── e02-solucions.txt
 │   │       ├── e02.xml
@@ -598,7 +596,8 @@ Fitxers del curs 1DAM Abastos.
 │   │       ├── e04-solucions.txt
 │   │       ├── e04.xml
 │   │       ├── e05-solucions.txt
-│   │       └── e05.xml
+│   │       ├── e05.xml
+│   │       └── Prueba XPATH.pdf
 │   ├── tema01
 │   │   ├── Bordes
 │   │   │   ├── index.html
@@ -719,8 +718,8 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   ├── fixed.html
 │   │   │   ├── relative.html
 │   │   │   ├── static.html
-│   │   │   ├── styles.css
-│   │   │   └── styles_arte.css
+│   │   │   ├── styles_arte.css
+│   │   │   └── styles.css
 │   │   ├── Efemerides
 │   │   │   ├── efemerides.html
 │   │   │   └── styles.css
@@ -805,8 +804,8 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   │   ├── papel-colores.jpg
 │   │   │   │   ├── papel-morado.jpg
 │   │   │   │   ├── papel-negro.jpg
-│   │   │   │   ├── papel-rojo.jpg
-│   │   │   │   └── papel-rojo2.jpg
+│   │   │   │   ├── papel-rojo2.jpg
+│   │   │   │   └── papel-rojo.jpg
 │   │   │   ├── index.html
 │   │   │   └── styles.css
 │   │   ├── MenuDesplegable1
@@ -834,14 +833,6 @@ Fitxers del curs 1DAM Abastos.
 │   │       ├── index.html
 │   │       └── styles.css
 │   ├── tema05
-│   │   ├── IntroXML
-│   │   │   └── introXML.xml
-│   │   ├── TareasXML
-│   │   │   ├── 01-excel.xml
-│   │   │   ├── 02-Corregir.xml
-│   │   │   └── 03Estilos
-│   │   │       ├── index.xml
-│   │   │       └── styles.css
 │   │   ├── dtd-atributos
 │   │   │   ├── dtdAtributosEjemplos.xml
 │   │   │   └── dtdCorregir.xml
@@ -858,6 +849,14 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   ├── saludo.xml
 │   │   │   ├── sistemaSolar.dtd
 │   │   │   └── sistemaSolar.xml
+│   │   ├── IntroXML
+│   │   │   └── introXML.xml
+│   │   ├── TareasXML
+│   │   │   ├── 01-excel.xml
+│   │   │   ├── 02-Corregir.xml
+│   │   │   └── 03Estilos
+│   │   │       ├── index.xml
+│   │   │       └── styles.css
 │   │   ├── xpath
 │   │   │   └── E01.md
 │   │   ├── xsl-introduccion
@@ -891,8 +890,8 @@ Fitxers del curs 1DAM Abastos.
 │   └── tema07
 │       ├── cuestionari
 │       │   ├── CUESTIONARIO SISTEMAS DE GESTIÓN DE INFORMACIÓN.pdf
-│       │   ├── ERP y SAP teoría..pdf
-│       │   └── cuestionari.txt
+│       │   ├── cuestionari.txt
+│       │   └── ERP y SAP teoría..pdf
 │       └── sistemas de gestión de Información.pdf
 ├── PRO
 │   ├── apunts
@@ -917,8 +916,8 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── Bulto.java
 │   │   │       ├── Carta.java
 │   │   │       ├── Estado.java
-│   │   │       ├── Factura.java
 │   │   │       ├── Facturable.java
+│   │   │       ├── Factura.java
 │   │   │       ├── GestionBultos.java
 │   │   │       ├── Main.java
 │   │   │       ├── Paquete.java
@@ -932,8 +931,8 @@ Fitxers del curs 1DAM Abastos.
 │   │           └── GestionPalabras.java
 │   ├── javademecum.pdf
 │   ├── tema00
-│   │   ├── U00_Introduccion a la programcion.pdf
-│   │   └── ejemplo de algoritmo studioCode.pdf
+│   │   ├── ejemplo de algoritmo studioCode.pdf
+│   │   └── U00_Introduccion a la programcion.pdf
 │   ├── tema01
 │   │   ├── DiasDeVida
 │   │   │   └── src
@@ -956,9 +955,13 @@ Fitxers del curs 1DAM Abastos.
 │   │   ├── BasePorAltura
 │   │   │   └── src
 │   │   │       └── BasePorAltura.java
+│   │   ├── cuestionesU2.odt
+│   │   ├── cuestionesU2.pdf
 │   │   ├── DatosJava
 │   │   │   └── src
 │   │   │       └── DatosJava.java
+│   │   ├── ejercicios_repasoU2.odt
+│   │   ├── ejercicios_repasoU2.pdf
 │   │   ├── EntradaDatos
 │   │   │   └── src
 │   │   │       ├── EntradaDatosEj1.java
@@ -973,6 +976,8 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   ├── solucion.txt
 │   │   │   └── src
 │   │   │       └── OperadorAutoincremento.java
+│   │   ├── printf.odt
+│   │   ├── printf.pdf
 │   │   ├── RepasoUnidad2
 │   │   │   └── src
 │   │   │       ├── ComparaDosCadenas.java
@@ -989,13 +994,7 @@ Fitxers del curs 1DAM Abastos.
 │   │   ├── Z05_ejercicio1.pdf
 │   │   ├── Z07_ejercicio3.pdf
 │   │   ├── Z10_Ejercicios4.pdf
-│   │   ├── Z12_printf y operador ternario.pdf
-│   │   ├── cuestionesU2.odt
-│   │   ├── cuestionesU2.pdf
-│   │   ├── ejercicios_repasoU2.odt
-│   │   ├── ejercicios_repasoU2.pdf
-│   │   ├── printf.odt
-│   │   └── printf.pdf
+│   │   └── Z12_printf y operador ternario.pdf
 │   ├── tema03
 │   │   ├── Bucles
 │   │   │   ├── EJEMPLOS DEL TEMA 3 BUCLES.pdf
@@ -1005,42 +1004,42 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── Ej3.java
 │   │   │       └── Ej4.java
 │   │   ├── Bucles2
-│   │   │   ├── Z04_U03_Estructuras repetitivas1.pdf
-│   │   │   └── src
-│   │   │       ├── Ej1.java
-│   │   │       ├── Ej10.java
-│   │   │       ├── Ej11.java
-│   │   │       ├── Ej12.java
-│   │   │       ├── Ej13.java
-│   │   │       ├── Ej14.java
-│   │   │       ├── Ej15.java
-│   │   │       ├── Ej16.java
-│   │   │       ├── Ej17.java
-│   │   │       ├── Ej18.java
-│   │   │       ├── Ej19a.java
-│   │   │       ├── Ej19b.java
-│   │   │       ├── Ej19c.java
-│   │   │       ├── Ej19d.java
-│   │   │       ├── Ej2.java
-│   │   │       ├── Ej20a.java
-│   │   │       ├── Ej20b.java
-│   │   │       ├── Ej20c.java
-│   │   │       ├── Ej3.java
-│   │   │       ├── Ej4.java
-│   │   │       ├── Ej5.java
-│   │   │       ├── Ej6.java
-│   │   │       ├── Ej7.java
-│   │   │       ├── Ej8.java
-│   │   │       └── Ej9.java
+│   │   │   ├── src
+│   │   │   │   ├── Ej10.java
+│   │   │   │   ├── Ej11.java
+│   │   │   │   ├── Ej12.java
+│   │   │   │   ├── Ej13.java
+│   │   │   │   ├── Ej14.java
+│   │   │   │   ├── Ej15.java
+│   │   │   │   ├── Ej16.java
+│   │   │   │   ├── Ej17.java
+│   │   │   │   ├── Ej18.java
+│   │   │   │   ├── Ej19a.java
+│   │   │   │   ├── Ej19b.java
+│   │   │   │   ├── Ej19c.java
+│   │   │   │   ├── Ej19d.java
+│   │   │   │   ├── Ej1.java
+│   │   │   │   ├── Ej20a.java
+│   │   │   │   ├── Ej20b.java
+│   │   │   │   ├── Ej20c.java
+│   │   │   │   ├── Ej2.java
+│   │   │   │   ├── Ej3.java
+│   │   │   │   ├── Ej4.java
+│   │   │   │   ├── Ej5.java
+│   │   │   │   ├── Ej6.java
+│   │   │   │   ├── Ej7.java
+│   │   │   │   ├── Ej8.java
+│   │   │   │   └── Ej9.java
+│   │   │   └── Z04_U03_Estructuras repetitivas1.pdf
 │   │   ├── Bucles3
-│   │   │   ├── U03_Estructuras repetitivas 2.pdf
-│   │   │   └── src
-│   │   │       ├── Ej01_Menu.java
-│   │   │       ├── Ej02_Tabla.java
-│   │   │       ├── Ej03_A_Primos.java
-│   │   │       ├── Ej03_B_Primos.java
-│   │   │       ├── Ej04_Multiplos3.java
-│   │   │       └── Ej05_Almacen.java
+│   │   │   ├── src
+│   │   │   │   ├── Ej01_Menu.java
+│   │   │   │   ├── Ej02_Tabla.java
+│   │   │   │   ├── Ej03_A_Primos.java
+│   │   │   │   ├── Ej03_B_Primos.java
+│   │   │   │   ├── Ej04_Multiplos3.java
+│   │   │   │   └── Ej05_Almacen.java
+│   │   │   └── U03_Estructuras repetitivas 2.pdf
 │   │   ├── CondicionalesMultiples
 │   │   │   ├── Condicional múltiple.pdf
 │   │   │   └── src
@@ -1050,26 +1049,25 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── Ej4.java
 │   │   │       └── Ej5.java
 │   │   ├── EjerciciosCondicionales
-│   │   │   ├── Z01_CONDICIONALES.pdf
-│   │   │   └── src
-│   │   │       ├── Ej1.java
-│   │   │       ├── Ej10.java
-│   │   │       ├── Ej11.java
-│   │   │       ├── Ej12.java
-│   │   │       ├── Ej13.java
-│   │   │       ├── Ej14.java
-│   │   │       ├── Ej15a.java
-│   │   │       ├── Ej15b.java
-│   │   │       ├── Ej2.java
-│   │   │       ├── Ej3.java
-│   │   │       ├── Ej4.java
-│   │   │       ├── Ej5.java
-│   │   │       ├── Ej6.java
-│   │   │       ├── Ej7.java
-│   │   │       ├── Ej8.java
-│   │   │       └── Ej9.java
+│   │   │   ├── src
+│   │   │   │   ├── Ej10.java
+│   │   │   │   ├── Ej11.java
+│   │   │   │   ├── Ej12.java
+│   │   │   │   ├── Ej13.java
+│   │   │   │   ├── Ej14.java
+│   │   │   │   ├── Ej15a.java
+│   │   │   │   ├── Ej15b.java
+│   │   │   │   ├── Ej1.java
+│   │   │   │   ├── Ej2.java
+│   │   │   │   ├── Ej3.java
+│   │   │   │   ├── Ej4.java
+│   │   │   │   ├── Ej5.java
+│   │   │   │   ├── Ej6.java
+│   │   │   │   ├── Ej7.java
+│   │   │   │   ├── Ej8.java
+│   │   │   │   └── Ej9.java
+│   │   │   └── Z01_CONDICIONALES.pdf
 │   │   ├── Trazas
-│   │   │   ├── Z08_Trazas.pdf
 │   │   │   ├── algoritmos
 │   │   │   │   ├── A-codigo.png
 │   │   │   │   ├── A-diagrama.png
@@ -1083,11 +1081,12 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   │   ├── D-codigo.png
 │   │   │   │   ├── D-diagrama.png
 │   │   │   │   └── D.psc
-│   │   │   └── src
-│   │   │       ├── Ej01_Comparar.java
-│   │   │       ├── Ej02_NoFunciona.java
-│   │   │       ├── Ej03_Interrogantes.java
-│   │   │       └── Ej04_Trazas.java
+│   │   │   ├── src
+│   │   │   │   ├── Ej01_Comparar.java
+│   │   │   │   ├── Ej02_NoFunciona.java
+│   │   │   │   ├── Ej03_Interrogantes.java
+│   │   │   │   └── Ej04_Trazas.java
+│   │   │   └── Z08_Trazas.pdf
 │   │   └── U3_estructuras secuencial y condicional.pdf
 │   ├── tema04
 │   │   ├── ArbolNavideno
@@ -1133,17 +1132,17 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   └── src
 │   │   │       └── Ahorcado.java
 │   │   ├── ArraysBidimensionales
-│   │   │   ├── Z05_matrices bidimensionales1.pdf
-│   │   │   └── src
-│   │   │       ├── Ej01_MostrarIndex.java
-│   │   │       ├── Ej02_ParesImpares.java
-│   │   │       ├── Ej03_TamanosDiferentes.java
-│   │   │       ├── Ej04_Diagonales.java
-│   │   │       ├── Ej05_SumaMatriz.java
-│   │   │       ├── Ej06_MenorMayor.java
-│   │   │       ├── Ej07_Simetrica.java
-│   │   │       ├── Ej08_Supermercado.java
-│   │   │       └── Ej09_Almacenes.java
+│   │   │   ├── src
+│   │   │   │   ├── Ej01_MostrarIndex.java
+│   │   │   │   ├── Ej02_ParesImpares.java
+│   │   │   │   ├── Ej03_TamanosDiferentes.java
+│   │   │   │   ├── Ej04_Diagonales.java
+│   │   │   │   ├── Ej05_SumaMatriz.java
+│   │   │   │   ├── Ej06_MenorMayor.java
+│   │   │   │   ├── Ej07_Simetrica.java
+│   │   │   │   ├── Ej08_Supermercado.java
+│   │   │   │   └── Ej09_Almacenes.java
+│   │   │   └── Z05_matrices bidimensionales1.pdf
 │   │   ├── ArraysBidimensionales2
 │   │   │   └── src
 │   │   │       └── PruebaVectores.java
@@ -1167,14 +1166,14 @@ Fitxers del curs 1DAM Abastos.
 │   │   │   └── src
 │   │   │       └── Primitiva.java
 │   │   └── Strings
-│   │       ├── Z10_U05- Ejercicios1_Strings.pdf
-│   │       └── src
-│   │           ├── Ej01_NombreCompleto.java
-│   │           ├── Ej02_TresMetodos.java
-│   │           ├── Ej03_VocalesMinusculas.java
-│   │           ├── Ej04_ReplaceAsteriscos.java
-│   │           ├── Ej05_PalabrasDeCadena.java
-│   │           └── Ej06_Siglas.java
+│   │       ├── src
+│   │       │   ├── Ej01_NombreCompleto.java
+│   │       │   ├── Ej02_TresMetodos.java
+│   │       │   ├── Ej03_VocalesMinusculas.java
+│   │       │   ├── Ej04_ReplaceAsteriscos.java
+│   │       │   ├── Ej05_PalabrasDeCadena.java
+│   │       │   └── Ej06_Siglas.java
+│   │       └── Z10_U05- Ejercicios1_Strings.pdf
 │   ├── tema06
 │   │   ├── Alumnos
 │   │   │   ├── Ejercicio_Alumnos.pdf
@@ -1190,36 +1189,36 @@ Fitxers del curs 1DAM Abastos.
 │   │   │           ├── Calificacion.java
 │   │   │           └── Main.java
 │   │   ├── AsignaturaAlumnoProfesor
-│   │   │   ├── U05_Ejercicios6_objetos como parámetros_ASIGNATURA.pdf
-│   │   │   └── src
-│   │   │       ├── Alumno.java
-│   │   │       ├── Asignatura.java
-│   │   │       ├── Main.java
-│   │   │       └── Profesor.java
+│   │   │   ├── src
+│   │   │   │   ├── Alumno.java
+│   │   │   │   ├── Asignatura.java
+│   │   │   │   ├── Main.java
+│   │   │   │   └── Profesor.java
+│   │   │   └── U05_Ejercicios6_objetos como parámetros_ASIGNATURA.pdf
 │   │   ├── CirculoGaraje
-│   │   │   ├── U05_Ejercicio circulo y garaje 6J.pdf
-│   │   │   └── src
-│   │   │       ├── circulo
-│   │   │       │   ├── Circulo.java
-│   │   │       │   ├── Main.java
-│   │   │       │   └── Punto.java
-│   │   │       └── garaje
-│   │   │           ├── Coche.java
-│   │   │           ├── Garaje.java
-│   │   │           ├── Main.java
-│   │   │           └── Motor.java
+│   │   │   ├── src
+│   │   │   │   ├── circulo
+│   │   │   │   │   ├── Circulo.java
+│   │   │   │   │   ├── Main.java
+│   │   │   │   │   └── Punto.java
+│   │   │   │   └── garaje
+│   │   │   │       ├── Coche.java
+│   │   │   │       ├── Garaje.java
+│   │   │   │       ├── Main.java
+│   │   │   │       └── Motor.java
+│   │   │   └── U05_Ejercicio circulo y garaje 6J.pdf
 │   │   ├── Clases1
-│   │   │   ├── Z01_U06- Ejercicios1.pdf
-│   │   │   └── src
-│   │   │       ├── asignatura
-│   │   │       │   ├── Asignatura.java
-│   │   │       │   └── AsignaturaApp.java
-│   │   │       ├── coche
-│   │   │       │   ├── Coche.java
-│   │   │       │   └── CocheApp.java
-│   │   │       └── punto
-│   │   │           ├── Punto.java
-│   │   │           └── PuntoApp.java
+│   │   │   ├── src
+│   │   │   │   ├── asignatura
+│   │   │   │   │   ├── AsignaturaApp.java
+│   │   │   │   │   └── Asignatura.java
+│   │   │   │   ├── coche
+│   │   │   │   │   ├── CocheApp.java
+│   │   │   │   │   └── Coche.java
+│   │   │   │   └── punto
+│   │   │   │       ├── PuntoApp.java
+│   │   │   │       └── Punto.java
+│   │   │   └── Z01_U06- Ejercicios1.pdf
 │   │   ├── Escuela
 │   │   │   ├── dia
 │   │   │   │   ├── Escuela.png
@@ -1229,10 +1228,10 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── Escuela.java
 │   │   │       └── Main.java
 │   │   ├── Logistica
-│   │   │   ├── Z07_Ejercicios2_logistica.pdf
-│   │   │   └── src
-│   │   │       ├── LogisticaAlmacen.java
-│   │   │       └── LogisticaControlContenedor.java
+│   │   │   ├── src
+│   │   │   │   ├── LogisticaAlmacen.java
+│   │   │   │   └── LogisticaControlContenedor.java
+│   │   │   └── Z07_Ejercicios2_logistica.pdf
 │   │   ├── Parking
 │   │   │   └── src
 │   │   │       ├── Aparcamiento.java
@@ -1261,12 +1260,12 @@ Fitxers del curs 1DAM Abastos.
 │   │           └── Main.java
 │   ├── tema07
 │   │   ├── Excepciones1
-│   │   │   ├── U07- Ejercicios1.pdf
-│   │   │   └── src
-│   │   │       ├── E01_Salida.java
-│   │   │       ├── E02_DividirArray.java
-│   │   │       ├── E03_CadenasArray.java
-│   │   │       └── E04_Correo.java
+│   │   │   ├── src
+│   │   │   │   ├── E01_Salida.java
+│   │   │   │   ├── E02_DividirArray.java
+│   │   │   │   ├── E03_CadenasArray.java
+│   │   │   │   └── E04_Correo.java
+│   │   │   └── U07- Ejercicios1.pdf
 │   │   ├── Excepciones2
 │   │   │   ├── Ejercicio2.pdf
 │   │   │   └── src
@@ -1280,11 +1279,11 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── E02_LeerReal.java
 │   │   │       └── E03_Edad.java
 │   │   ├── semaforo
-│   │   │   ├── Z05_semaforo.pdf
-│   │   │   └── src
-│   │   │       ├── Estado.java
-│   │   │       ├── Main.java
-│   │   │       └── Semaforo.java
+│   │   │   ├── src
+│   │   │   │   ├── Estado.java
+│   │   │   │   ├── Main.java
+│   │   │   │   └── Semaforo.java
+│   │   │   └── Z05_semaforo.pdf
 │   │   └── transporte-maderas
 │   │       └── src
 │   │           ├── Maderas.java
@@ -1292,24 +1291,24 @@ Fitxers del curs 1DAM Abastos.
 │   │           └── Pale.java
 │   ├── tema08
 │   │   ├── cuestiones-herencia
-│   │   │   ├── Z02_U08- Cuestiones reordenadas.pdf
-│   │   │   └── cuestiones-respuestas.txt
+│   │   │   ├── cuestiones-respuestas.txt
+│   │   │   └── Z02_U08- Cuestiones reordenadas.pdf
 │   │   ├── figuras
-│   │   │   ├── U08-Ejercicios3_Figuras2021.pdf
-│   │   │   └── src
-│   │   │       ├── App.java
-│   │   │       ├── Circulo.java
-│   │   │       ├── Color.java
-│   │   │       ├── Figura.java
-│   │   │       └── Rectangulo.java
+│   │   │   ├── src
+│   │   │   │   ├── App.java
+│   │   │   │   ├── Circulo.java
+│   │   │   │   ├── Color.java
+│   │   │   │   ├── Figura.java
+│   │   │   │   └── Rectangulo.java
+│   │   │   └── U08-Ejercicios3_Figuras2021.pdf
 │   │   ├── figuras-interfaces
-│   │   │   ├── Z10_Interfaces.pdf
-│   │   │   └── src
-│   │   │       ├── App.java
-│   │   │       ├── Circulo.java
-│   │   │       ├── Color.java
-│   │   │       ├── Figura.java
-│   │   │       └── Rectangulo.java
+│   │   │   ├── src
+│   │   │   │   ├── App.java
+│   │   │   │   ├── Circulo.java
+│   │   │   │   ├── Color.java
+│   │   │   │   ├── Figura.java
+│   │   │   │   └── Rectangulo.java
+│   │   │   └── Z10_Interfaces.pdf
 │   │   ├── multimedia
 │   │   │   ├── herenciaMultimedia2021.pdf
 │   │   │   └── src
@@ -1328,12 +1327,12 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── Multimedia.java
 │   │   │       └── Pelicula.java
 │   │   ├── multimedia-interfaces
-│   │   │   ├── Z10_Interfaces.pdf
-│   │   │   └── src
-│   │   │       ├── App.java
-│   │   │       ├── Formatos.java
-│   │   │       ├── ListaMultimedia.java
-│   │   │       └── Multimedia.java
+│   │   │   ├── src
+│   │   │   │   ├── App.java
+│   │   │   │   ├── Formatos.java
+│   │   │   │   ├── ListaMultimedia.java
+│   │   │   │   └── Multimedia.java
+│   │   │   └── Z10_Interfaces.pdf
 │   │   ├── multimedia-polimorfismo
 │   │   │   ├── polimorfismo1_Ampliación multimedia2021.pdf
 │   │   │   └── src
@@ -1346,35 +1345,35 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── Multimedia.java
 │   │   │       └── Pelicula.java
 │   │   └── simulador-vehiculos
-│   │       ├── Z06_U08- Ejercicios2.pdf
-│   │       └── src
-│   │           ├── App.java
-│   │           ├── Camion.java
-│   │           ├── Coche.java
-│   │           ├── DemasiadoRapidoException.java
-│   │           ├── Remolque.java
-│   │           └── Vehiculo.java
+│   │       ├── src
+│   │       │   ├── App.java
+│   │       │   ├── Camion.java
+│   │       │   ├── Coche.java
+│   │       │   ├── DemasiadoRapidoException.java
+│   │       │   ├── Remolque.java
+│   │       │   └── Vehiculo.java
+│   │       └── Z06_U08- Ejercicios2.pdf
 │   ├── tema09
 │   │   ├── agenda
-│   │   │   ├── Z01_Practica ArrayList.pdf
-│   │   │   └── src
-│   │   │       ├── Agenda.java
-│   │   │       ├── App.java
-│   │   │       └── Contacto.java
+│   │   │   ├── src
+│   │   │   │   ├── Agenda.java
+│   │   │   │   ├── App.java
+│   │   │   │   └── Contacto.java
+│   │   │   └── Z01_Practica ArrayList.pdf
 │   │   ├── arraylist-strings
 │   │   │   ├── Cadenas Ejercicio ArrayListArrayString.pdf
 │   │   │   └── src
 │   │   │       ├── App.java
 │   │   │       └── Clase.java
 │   │   ├── autopista
-│   │   │   ├── Z09X_Instrucciones para aplicación autopista.pdf
-│   │   │   └── src
-│   │   │       ├── App.java
-│   │   │       ├── Coche.java
-│   │   │       ├── Moto.java
-│   │   │       ├── Vehiculo.java
-│   │   │       ├── Ventanilla.java
-│   │   │       └── Ventanillas.java
+│   │   │   ├── src
+│   │   │   │   ├── App.java
+│   │   │   │   ├── Coche.java
+│   │   │   │   ├── Moto.java
+│   │   │   │   ├── Vehiculo.java
+│   │   │   │   ├── Ventanilla.java
+│   │   │   │   └── Ventanillas.java
+│   │   │   └── Z09X_Instrucciones para aplicación autopista.pdf
 │   │   ├── cajas-supermercado
 │   │   │   ├── Gestión de las cajas de un supermercado.pdf
 │   │   │   └── src
@@ -1409,16 +1408,16 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       └── App.java
 │   │   ├── pilas-colas
 │   │   │   ├── README.txt
-│   │   │   ├── Z04_PracticaLinkedListPilaCola2019.pdf
-│   │   │   └── src
-│   │   │       ├── control
-│   │   │       │   ├── Cola.java
-│   │   │       │   ├── GestionListas.java
-│   │   │       │   ├── Pila.java
-│   │   │       │   └── PilaColaInterface.java
-│   │   │       └── ig
-│   │   │           ├── App.form
-│   │   │           └── App.java
+│   │   │   ├── src
+│   │   │   │   ├── control
+│   │   │   │   │   ├── Cola.java
+│   │   │   │   │   ├── GestionListas.java
+│   │   │   │   │   ├── PilaColaInterface.java
+│   │   │   │   │   └── Pila.java
+│   │   │   │   └── ig
+│   │   │   │       ├── App.form
+│   │   │   │       └── App.java
+│   │   │   └── Z04_PracticaLinkedListPilaCola2019.pdf
 │   │   └── veterinario
 │   │       ├── diagrama
 │   │       │   ├── veterinaria.png
@@ -1439,8 +1438,6 @@ Fitxers del curs 1DAM Abastos.
 │   │       └── test
 │   │           └── ClienteTest.java
 │   ├── tema10
-│   │   ├── Tema 5. Manejo de ficheros en Java.pdf
-│   │   ├── Unidad 10 20202021.pdf
 │   │   ├── acceso-aleatorio
 │   │   │   ├── Ejercicio Acceso aleatoro.pdf
 │   │   │   ├── resources
@@ -1475,14 +1472,14 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       └── UnirFicheros.java
 │   │   ├── ficheros-02
 │   │   │   ├── EjercicioFicheros 2 Agenda.pdf
-│   │   │   ├── Z01_Practica ArrayList.pdf
 │   │   │   ├── exportaciones
 │   │   │   │   ├── agenda.dat
 │   │   │   │   └── agenda.txt
-│   │   │   └── src
-│   │   │       ├── Agenda.java
-│   │   │       ├── App.java
-│   │   │       └── Contacto.java
+│   │   │   ├── src
+│   │   │   │   ├── Agenda.java
+│   │   │   │   ├── App.java
+│   │   │   │   └── Contacto.java
+│   │   │   └── Z01_Practica ArrayList.pdf
 │   │   ├── primitiva-ficheros
 │   │   │   ├── combinaciones.txt
 │   │   │   ├── primitiva.pdf
@@ -1498,12 +1495,14 @@ Fitxers del curs 1DAM Abastos.
 │   │   │       ├── App.java
 │   │   │       ├── Carrera.java
 │   │   │       └── Corredor.java
+│   │   ├── Tema 5. Manejo de ficheros en Java.pdf
 │   │   ├── tres-en-ralla
 │   │   │   └── src
 │   │   │       ├── Juego.java
 │   │   │       ├── Jugador.java
 │   │   │       ├── Main.java
 │   │   │       └── Tablero.java
+│   │   ├── Unidad 10 20202021.pdf
 │   │   └── veterinario-ficheros
 │   │       ├── exportaciones
 │   │       │   ├── clientes.dat
@@ -1520,225 +1519,188 @@ Fitxers del curs 1DAM Abastos.
 │   │           └── Vacunable.java
 │   └── tema11
 │       ├── CalculadoraGUI
-│       │   ├── U11.- Mi primera aplicacion-1.pdf
-│       │   └── src
-│       │       ├── Calculadora.form
-│       │       ├── Calculadora.java
-│       │       └── Main.java
+│       │   ├── src
+│       │   │   ├── Calculadora.form
+│       │   │   ├── Calculadora.java
+│       │   │   └── Main.java
+│       │   └── U11.- Mi primera aplicacion-1.pdf
 │       └── U11 IG_2018.pdf
 ├── README.md
-├── SIS
-│   ├── apunts
-│   │   ├── UD Repaso resumen contenidos SI todo el curso.pdf
-│   │   ├── apunts_T01-T02-T03-T04.odt
-│   │   ├── apunts_T01-T02-T03-T04.pdf
-│   │   ├── apunts_T04-T05.odt
-│   │   └── apunts_T04-T05.pdf
-│   ├── examens
-│   │   ├── Examen-17-05-2022
-│   │   │   └── script.py
-│   │   ├── Examen2022-02-22
-│   │   │   ├── E04.txt
-│   │   │   ├── E05.txt
-│   │   │   ├── E06.sh
-│   │   │   ├── examen6J_VictorPiles.odt
-│   │   │   └── examen6J_VictorPiles.pdf
-│   │   └── Simulacre2022-0-11
-│   │       ├── SimulacreU4-5.odt
-│   │       ├── SimulacreU4-5.pdf
-│   │       └── revision_SSOO_LinuxComandosScripts.pdf
-│   ├── tema01
-│   │   ├── UD 01_01_Introducció a la virtualizació_vlc.pdf
-│   │   ├── virtualitzacio1.odt
-│   │   └── virtualitzacio1.pdf
-│   ├── tema02
-│   │   ├── UD 02 Representació de la informació_vlc.pdf
-│   │   ├── exercici_examen.odt
-│   │   ├── exercici_examen.pdf
-│   │   ├── tabla_hex_dec_oct_bin.odt
-│   │   └── tabla_hex_dec_oct_bin.pdf
-│   ├── tema03
-│   │   ├── UD 03_00a Analogía Computador - Restaurante.pdf
-│   │   ├── UD 03_00b Introducción al Hardware de los computadores.pdf
-│   │   ├── UD 03_01 Von Neumann.pdf
-│   │   ├── UD 03_02 Placa base.pdf
-│   │   ├── UD 03_03_Micro Memoria - vlc.pdf
-│   │   ├── UD 03_04_AlmacenamientoMasivo.pdf
-│   │   ├── UD 03_05 Caixa del PC_Alimentació.pdf
-│   │   ├── UD 03_06_Tjta gráfica_Monitor_Sonido_Red.pdf
-│   │   ├── UD 03_07_Montaje y mantenimiento_PRL.pdf
-│   │   ├── UD 03_07_Montaje y mantenimiento_VÍDEO.pdf
-│   │   ├── UD 03_Actividad 01 La placa base-Manuales.pdf
-│   │   ├── UD 03_Actividad 02 Microprocesadores.pdf
-│   │   ├── UD 03_Actividad 06_Tarjetas de expansión.pdf
-│   │   ├── UD 03_Actividad 07 Repaso.pdf
-│   │   ├── UD 03_Activitat 03 Memòria.pdf
-│   │   ├── UD 03_Activitat Caixa.pdf
-│   │   ├── amd_ensamblador.pdf
-│   │   ├── caixa_font.odt
-│   │   ├── caixa_font.pdf
-│   │   ├── emmagatzematge.odt
-│   │   ├── emmagatzematge.pdf
-│   │   ├── emmagatzematge_activitat.pdf
-│   │   ├── hw_bios.odt
-│   │   ├── hw_bios.pdf
-│   │   ├── intel_ensamblador.pdf
-│   │   ├── memoria.odt
-│   │   ├── memoria.pdf
-│   │   ├── microprocesador.odt
-│   │   ├── microprocesador.pdf
-│   │   ├── placa_base_manuales.odt
-│   │   ├── placa_base_manuales.pdf
-│   │   ├── repaso.odt
-│   │   ├── repaso.pdf
-│   │   ├── tarjetas_expansion.odt
-│   │   └── tarjetas_expansion.pdf
-│   ├── tema04
-│   │   ├── UD 04_01_Sistemas Operativos Introduccio I.pdf
-│   │   ├── UD 04_01b_Memoria Virtual.pdf
-│   │   ├── activitats
-│   │   │   ├── UD 04_Actividad 01a.odt
-│   │   │   ├── UD 04_Actividad 01a.pdf
-│   │   │   ├── UD04_02-dual_boot.odt
-│   │   │   ├── UD04_02-dual_boot.pdf
-│   │   │   ├── UD04_03-gestor_arranque.odt
-│   │   │   └── UD04_03-gestor_arranque.pdf
-│   │   └── enunciats
-│   │       ├── UD 04_01_Sistemas Operativos Introduccio I.pdf
-│   │       ├── UD 04_02_Particiones e instalación Windows y Linux.pdf
-│   │       ├── UD 04_03_Imágenes_Gestor de arranque.pdf
-│   │       ├── UD 04_Actividad 01a_SO Intro.pdf
-│   │       └── UD 4_Actividad 01b_SO Intro_Ejercicio de procesos.ods
-│   ├── tema05
-│   │   ├── CuadroComandos.pdf
-│   │   ├── UD 05_01 GNU Linux Ficheros Usuarios.pdf
-│   │   ├── UD 05_02 GNU Linux Shell Redirecciones Tuberias Filtros.pdf
-│   │   ├── UD 05_04 GNU_Linux VARIOS.pdf
-│   │   ├── activitats
-│   │   │   ├── 05_04.odt
-│   │   │   ├── 05_04.pdf
-│   │   │   ├── UD 05_Act01_Ejercicios Comandos Ficheros Usuarios Tuberias Filtros.odt
-│   │   │   ├── fitxers_linux.odt
-│   │   │   ├── fitxers_linux.pdf
-│   │   │   ├── permisos.odt
-│   │   │   ├── permisos.pdf
-│   │   │   ├── usuarisgrups.odt
-│   │   │   ├── usuarisgrups.pdf
-│   │   │   ├── variables.odt
-│   │   │   └── variables.pdf
-│   │   ├── python01
-│   │   │   ├── UD 05_05 GNU Linux Introducción a Python y uso con comandos de Bash.pdf
-│   │   │   ├── e01-Variables.py
-│   │   │   ├── e02-Input.py
-│   │   │   ├── e03-Operaciones.py
-│   │   │   ├── e04-Flujo.py
-│   │   │   ├── e05-Calc.py
-│   │   │   └── e06-InfoUsuarios.py
-│   │   ├── scripts01
-│   │   │   ├── 01_Introduccio
-│   │   │   │   ├── calculadora.sh
-│   │   │   │   └── compararNumeros.sh
-│   │   │   ├── 02_MasEjercicios
-│   │   │   │   ├── E01
-│   │   │   │   │   ├── 01_Usuaris.sh
-│   │   │   │   │   ├── 01_users.csv
-│   │   │   │   │   └── resultado.txt
-│   │   │   │   ├── E02
-│   │   │   │   │   └── 02_Semaforo.sh
-│   │   │   │   ├── E03
-│   │   │   │   │   └── 03_ExisteUsuari.sh
-│   │   │   │   ├── E04
-│   │   │   │   │   └── 04_ComprovarCadena.sh
-│   │   │   │   ├── E05
-│   │   │   │   │   └── 05_ContarCadena.sh
-│   │   │   │   ├── E06
-│   │   │   │   │   └── 06_Papelera.sh
-│   │   │   │   └── E09
-│   │   │   │       └── 09_CheckUsuaris.sh
-│   │   │   └── UD 05_Act02_Ejercicios Scripts repaso Comandos GNULinux.pdf
-│   │   └── scripts02
-│   │       └── canviaDir.sh
-│   ├── tema06
-│   │   ├── IPv4 CIDR Chart_2015.pdf
-│   │   ├── Tabla Decimal-Binario.pdf
-│   │   ├── packet-tracer-01
-│   │   │   ├── UD 06_05 Redes_Packet Tracer.pdf
-│   │   │   └── packet-tracer-01.pkt
-│   │   ├── packet-tracer-02
-│   │   │   ├── 06_ejercicio.pdf
-│   │   │   ├── packet-tracer-02.pkt
-│   │   │   └── subnetting.txt
-│   │   ├── plantilla-subnetting.ott
-│   │   ├── samba
-│   │   │   ├── UD 06_06 Samba.pdf
-│   │   │   ├── samba.odt
-│   │   │   └── samba.pdf
-│   │   ├── ssh
-│   │   │   ├── UD 06_07_SSH.pdf
-│   │   │   ├── ssh.odt
-│   │   │   └── ssh.pdf
-│   │   ├── subnetting-01
-│   │   │   ├── subnetting-07.ods
-│   │   │   └── subnetting-09.ods
-│   │   └── subnetting-02
-│   │       ├── practical-subnetting-04.ods
-│   │       └── practical-subnetting-04.pdf
-│   ├── tema07
-│   │   ├── active-directory
-│   │   │   ├── UD 07_01_WS_Instalación_ConfiguracionInicial.pdf
-│   │   │   ├── UD 07_02_WS_AD.pdf
-│   │   │   ├── UD 07_1 y 07_2 Administración centralizada de redes PRESENTACIÓN.pdf
-│   │   │   ├── active-directory.odt
-│   │   │   └── active-directory.pdf
-│   │   ├── raid-cuotas
-│   │   │   ├── 1.png
-│   │   │   ├── UD 07_05_Presentacion_WS_RAID, cuotas y copias de seguridad.pdf
-│   │   │   └── UD 07_05_WS_RaidCuotasYCopias.pdf
-│   │   └── unidad-organizativa
-│   │       ├── Lliurament 07_3 i 07_4Tasca.odt
-│   │       ├── Lliurament 07_3 i 07_4Tasca.pdf
-│   │       ├── UD 07_03_WS_UsuariosGruposUO.pdf
-│   │       └── UD 07_04_WS_PermisosDirectivasPerfiles_Rec.pdf
-│   └── tema08
-│       └── instalacion-docker
-│           └── UD 08_02.01 - Instalación de Docker.pdf
-├── horari.jpg
-├── notes.ods
-├── plantilla.ott
-└── wallpaper
-    ├── bar_javier.PNG
-    ├── camelCasi.png
-    ├── dibnujkosoodasodoasodasdoas.png
-    ├── duke con la roja.png
-    ├── el-puto-cj.jpg
-    ├── emi&em.png
-    ├── emi_em.png
-    ├── examen_pro.jpg
-    ├── fondo-culero.png
-    ├── fondo-culero.xcf
-    ├── fondo.png
-    ├── gatito.jfif
-    ├── guitarra-peluda.jpg
-    ├── hannah.PNG
-    ├── horari.jpg
-    ├── iniesta-relajao.jfif
-    ├── iniesta.jpg
-    ├── jellyfish.svg
-    ├── linux-sex-tips.jpg
-    ├── m&m.jpg
-    ├── m_m.jpg
-    ├── mc-chanclas.jpg
-    ├── mclovin.jpg
-    ├── mitsubishi-materials.png
-    ├── mono-jinete.jpg
-    ├── nube-goku.png
-    ├── nyan-progress.png
-    ├── pantalla-rota.jpg
-    ├── perezoso.jpg
-    ├── rescatux.png
-    ├── saul.webp
-    ├── superman.png
-    └── ulleres-cani.png
+└── SIS
+    ├── apunts
+    │   ├── apunts_T01-T02-T03-T04.odt
+    │   ├── apunts_T01-T02-T03-T04.pdf
+    │   ├── apunts_T04-T05.odt
+    │   ├── apunts_T04-T05.pdf
+    │   └── UD Repaso resumen contenidos SI todo el curso.pdf
+    ├── examens
+    │   ├── Examen-17-05-2022
+    │   │   └── script.py
+    │   ├── Examen2022-02-22
+    │   │   ├── E04.txt
+    │   │   ├── E05.txt
+    │   │   ├── E06.sh
+    │   │   ├── examen6J_VictorPiles.odt
+    │   │   └── examen6J_VictorPiles.pdf
+    │   └── Simulacre2022-0-11
+    │       ├── revision_SSOO_LinuxComandosScripts.pdf
+    │       ├── SimulacreU4-5.odt
+    │       └── SimulacreU4-5.pdf
+    ├── tema01
+    │   ├── UD 01_01_Introducció a la virtualizació_vlc.pdf
+    │   ├── virtualitzacio1.odt
+    │   └── virtualitzacio1.pdf
+    ├── tema02
+    │   ├── exercici_examen.odt
+    │   ├── exercici_examen.pdf
+    │   ├── tabla_hex_dec_oct_bin.odt
+    │   ├── tabla_hex_dec_oct_bin.pdf
+    │   └── UD 02 Representació de la informació_vlc.pdf
+    ├── tema03
+    │   ├── amd_ensamblador.pdf
+    │   ├── caixa_font.odt
+    │   ├── caixa_font.pdf
+    │   ├── emmagatzematge_activitat.pdf
+    │   ├── emmagatzematge.odt
+    │   ├── emmagatzematge.pdf
+    │   ├── hw_bios.odt
+    │   ├── hw_bios.pdf
+    │   ├── intel_ensamblador.pdf
+    │   ├── memoria.odt
+    │   ├── memoria.pdf
+    │   ├── microprocesador.odt
+    │   ├── microprocesador.pdf
+    │   ├── placa_base_manuales.odt
+    │   ├── placa_base_manuales.pdf
+    │   ├── repaso.odt
+    │   ├── repaso.pdf
+    │   ├── tarjetas_expansion.odt
+    │   ├── tarjetas_expansion.pdf
+    │   ├── UD 03_00a Analogía Computador - Restaurante.pdf
+    │   ├── UD 03_00b Introducción al Hardware de los computadores.pdf
+    │   ├── UD 03_01 Von Neumann.pdf
+    │   ├── UD 03_02 Placa base.pdf
+    │   ├── UD 03_03_Micro Memoria - vlc.pdf
+    │   ├── UD 03_04_AlmacenamientoMasivo.pdf
+    │   ├── UD 03_05 Caixa del PC_Alimentació.pdf
+    │   ├── UD 03_06_Tjta gráfica_Monitor_Sonido_Red.pdf
+    │   ├── UD 03_07_Montaje y mantenimiento_PRL.pdf
+    │   ├── UD 03_07_Montaje y mantenimiento_VÍDEO.pdf
+    │   ├── UD 03_Actividad 01 La placa base-Manuales.pdf
+    │   ├── UD 03_Actividad 02 Microprocesadores.pdf
+    │   ├── UD 03_Actividad 06_Tarjetas de expansión.pdf
+    │   ├── UD 03_Actividad 07 Repaso.pdf
+    │   ├── UD 03_Activitat 03 Memòria.pdf
+    │   └── UD 03_Activitat Caixa.pdf
+    ├── tema04
+    │   ├── activitats
+    │   │   ├── UD 04_Actividad 01a.odt
+    │   │   ├── UD 04_Actividad 01a.pdf
+    │   │   ├── UD04_02-dual_boot.odt
+    │   │   ├── UD04_02-dual_boot.pdf
+    │   │   ├── UD04_03-gestor_arranque.odt
+    │   │   └── UD04_03-gestor_arranque.pdf
+    │   ├── enunciats
+    │   │   ├── UD 04_01_Sistemas Operativos Introduccio I.pdf
+    │   │   ├── UD 04_02_Particiones e instalación Windows y Linux.pdf
+    │   │   ├── UD 04_03_Imágenes_Gestor de arranque.pdf
+    │   │   ├── UD 04_Actividad 01a_SO Intro.pdf
+    │   │   └── UD 4_Actividad 01b_SO Intro_Ejercicio de procesos.ods
+    │   ├── UD 04_01b_Memoria Virtual.pdf
+    │   └── UD 04_01_Sistemas Operativos Introduccio I.pdf
+    ├── tema05
+    │   ├── activitats
+    │   │   ├── 05_04.odt
+    │   │   ├── 05_04.pdf
+    │   │   ├── fitxers_linux.odt
+    │   │   ├── fitxers_linux.pdf
+    │   │   ├── permisos.odt
+    │   │   ├── permisos.pdf
+    │   │   ├── UD 05_Act01_Ejercicios Comandos Ficheros Usuarios Tuberias Filtros.odt
+    │   │   ├── usuarisgrups.odt
+    │   │   ├── usuarisgrups.pdf
+    │   │   ├── variables.odt
+    │   │   └── variables.pdf
+    │   ├── CuadroComandos.pdf
+    │   ├── python01
+    │   │   ├── e01-Variables.py
+    │   │   ├── e02-Input.py
+    │   │   ├── e03-Operaciones.py
+    │   │   ├── e04-Flujo.py
+    │   │   ├── e05-Calc.py
+    │   │   ├── e06-InfoUsuarios.py
+    │   │   └── UD 05_05 GNU Linux Introducción a Python y uso con comandos de Bash.pdf
+    │   ├── scripts01
+    │   │   ├── 01_Introduccio
+    │   │   │   ├── calculadora.sh
+    │   │   │   └── compararNumeros.sh
+    │   │   ├── 02_MasEjercicios
+    │   │   │   ├── E01
+    │   │   │   │   ├── 01_users.csv
+    │   │   │   │   ├── 01_Usuaris.sh
+    │   │   │   │   └── resultado.txt
+    │   │   │   ├── E02
+    │   │   │   │   └── 02_Semaforo.sh
+    │   │   │   ├── E03
+    │   │   │   │   └── 03_ExisteUsuari.sh
+    │   │   │   ├── E04
+    │   │   │   │   └── 04_ComprovarCadena.sh
+    │   │   │   ├── E05
+    │   │   │   │   └── 05_ContarCadena.sh
+    │   │   │   ├── E06
+    │   │   │   │   └── 06_Papelera.sh
+    │   │   │   └── E09
+    │   │   │       └── 09_CheckUsuaris.sh
+    │   │   └── UD 05_Act02_Ejercicios Scripts repaso Comandos GNULinux.pdf
+    │   ├── scripts02
+    │   │   └── canviaDir.sh
+    │   ├── UD 05_01 GNU Linux Ficheros Usuarios.pdf
+    │   ├── UD 05_02 GNU Linux Shell Redirecciones Tuberias Filtros.pdf
+    │   └── UD 05_04 GNU_Linux VARIOS.pdf
+    ├── tema06
+    │   ├── IPv4 CIDR Chart_2015.pdf
+    │   ├── packet-tracer-01
+    │   │   ├── packet-tracer-01.pkt
+    │   │   └── UD 06_05 Redes_Packet Tracer.pdf
+    │   ├── packet-tracer-02
+    │   │   ├── 06_ejercicio.pdf
+    │   │   ├── packet-tracer-02.pkt
+    │   │   └── subnetting.txt
+    │   ├── plantilla-subnetting.ott
+    │   ├── samba
+    │   │   ├── samba.odt
+    │   │   ├── samba.pdf
+    │   │   └── UD 06_06 Samba.pdf
+    │   ├── ssh
+    │   │   ├── ssh.odt
+    │   │   ├── ssh.pdf
+    │   │   └── UD 06_07_SSH.pdf
+    │   ├── subnetting-01
+    │   │   ├── subnetting-07.ods
+    │   │   └── subnetting-09.ods
+    │   ├── subnetting-02
+    │   │   ├── practical-subnetting-04.ods
+    │   │   └── practical-subnetting-04.pdf
+    │   └── Tabla Decimal-Binario.pdf
+    ├── tema07
+    │   ├── active-directory
+    │   │   ├── active-directory.odt
+    │   │   ├── active-directory.pdf
+    │   │   ├── UD 07_01_WS_Instalación_ConfiguracionInicial.pdf
+    │   │   ├── UD 07_02_WS_AD.pdf
+    │   │   └── UD 07_1 y 07_2 Administración centralizada de redes PRESENTACIÓN.pdf
+    │   ├── raid-cuotas
+    │   │   ├── 1.png
+    │   │   ├── UD 07_05_Presentacion_WS_RAID, cuotas y copias de seguridad.pdf
+    │   │   └── UD 07_05_WS_RaidCuotasYCopias.pdf
+    │   └── unidad-organizativa
+    │       ├── Lliurament 07_3 i 07_4Tasca.odt
+    │       ├── Lliurament 07_3 i 07_4Tasca.pdf
+    │       ├── UD 07_03_WS_UsuariosGruposUO.pdf
+    │       └── UD 07_04_WS_PermisosDirectivasPerfiles_Rec.pdf
+    └── tema08
+        └── instalacion-docker
+            └── UD 08_02.01 - Instalación de Docker.pdf
 
-440 directories, 1296 files
+440 directories, 1260 files
 </pre>
